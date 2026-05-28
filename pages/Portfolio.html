@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>معرض الأعمال</title>
+  <link rel="stylesheet" href="assets/static-conversion.css">
+</head>
+<body>
+  <header class="azab-topbar">
+    <strong>معرض الأعمال</strong> · <a href="index.html">فهرس الصفحات</a>
+  </header>
+  <div class="azab-shell">
+    <article class="azab-card converted-page">
+      <div class="min-h-screen bg-background" dir="rtl">
+      <div class="component-placeholder">مكوّن مستورد: <strong>Header</strong></div>
+      
+      <!-- Hero -->
+      <section class="pt-24 pb-16 bg-gradient-to-br from-construction-primary via-construction-dark to-construction-primary text-white relative overflow-hidden">
+        <div class="absolute inset-0">
+          <div class="absolute inset-0 bg-[radial-gradient(circle_at_30%_40%,rgba(251,191,36,0.15)_0%,transparent_60%)]" ></div>
+          <div class="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(255,255,255,0.05)_0%,transparent_50%)]" ></div>
+        </div>
+        
+        <div class="container mx-auto px-4 relative z-10">
+          <motion.div initial={} animate={} transition={}>
+            <div class="component badge">
+              +<span data-js-var="folderStats.total"></span> عمل
+            </div>
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">
+              معرض الأعمال
+            </h1>
+            <p class="text-lg md:text-xl text-white/70 max-w-2xl leading-relaxed">
+              مجموعة شاملة من أعمالنا في البناء والتصميم الداخلي والمدافئ الفاخرة
+            </p>
+          </motion.div>
+          
+          <!-- Folder Stats -->
+          <motion.div 
+            class="grid grid-cols-3 md:grid-cols-4 gap-4 mt-10 max-w-3xl"
+            initial={}
+            animate={}
+            transition={}
+          >
+            <div class="dynamic-placeholder">قائمة ديناميكية من المصدر: <strong>inline-array.map(...)</strong> — لم يتم تنفيذ JavaScript داخل التحويل الثابت.</div>
+          </motion.div>
+        </div>
+      </section>
+
+      <!-- Main Tabs -->
+      <div class="component-placeholder" data-component="Tabs"></span> class="w-full">
+        <div class="sticky top-16 md:top-20 z-40 bg-background/95 backdrop-blur-md shadow-sm border-b">
+          <div class="container mx-auto px-4">
+            <div class="component-placeholder" data-component="TabsList">
+              <div class="component-placeholder" data-component="TabsTrigger">
+                <span class="icon-placeholder">Image</span>
+                <span class="hidden sm:inline">معرض</span> الصور
+                <div class="component badge"><span data-js-var="folderStats.total"></span></div>
+              </div>
+              <div class="component-placeholder" data-component="TabsTrigger">
+                <span class="icon-placeholder">Box</span>
+                <span class="hidden sm:inline">العرض</span> 3D
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ===== IMAGES TAB ===== -->
+        <div class="component-placeholder" data-component="TabsContent">
+          <!-- Filters -->
+          <div class="sticky top-[7rem] md:top-[8.5rem] z-30 bg-background/95 backdrop-blur-md border-b">
+            <div class="container mx-auto px-4 py-2 md:py-3">
+              <div class="flex flex-col gap-3">
+                <div class="flex flex-col md:flex-row gap-3 items-center justify-between">
+                  <div class="relative w-full md:w-80">
+                    <span class="icon-placeholder">Search</span>
+                    <div class="component-placeholder">Input</div>
+                    
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <span class="text-sm text-muted-foreground"><span data-js-var="filteredImages.length"></span> صورة</span>
+                    <div class="flex gap-1 bg-muted p-1 rounded-md">
+                      <div class="component button">
+                        <span class="icon-placeholder">LayoutGrid</span>
+                      </div>
+                      <div class="component button">
+                        <span class="icon-placeholder">Grid</span>
+                      </div>
+                    </div>
+                    <div class="component button">
+                      <span class="icon-placeholder">Filter</span>
+                      تصفية
+                    </div>
+                  </div>
+                </div>
+
+                <div class="component-placeholder" data-component="AnimatePresence">
+                  {showFilters && (
+                    <motion.div initial={} animate={} exit={} class="overflow-hidden">
+                      <div class="component-placeholder" data-component="ScrollArea">
+                        <div class="flex gap-2 pb-2 flex-wrap">
+                          <div class="dynamic-placeholder">قائمة ديناميكية من المصدر: <strong>activeCategories.map(...)</strong> — لم يتم تنفيذ JavaScript داخل التحويل الثابت.</div>
+                        </div>
+                      </div>
+                    </motion.div>
+                  )}
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Gallery Grid -->
+          <section class="container mx-auto px-4 py-8">
+            >
+                  إعادة تعيين
+                </div>
+              </div>
+            ) : (
+              <div>
+                <motion.div class="dynamic-class"
+                  initial="hidden"
+                  animate="visible"
+                  variants={{ hidden: , visible: { opacity: 1, transition:  } }}
+                >
+                  <div class="dynamic-placeholder">قائمة ديناميكية من المصدر: <strong>visibleImages.map(...)</strong> — لم يتم تنفيذ JavaScript داخل التحويل الثابت.</div>
+                </motion.div>
+
+                {visibleCount < filteredImages.length && (
+                  <div class="text-center mt-10">
+                    <div class="component button">
+                      تحميل المزيد ( متبقي)
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
+          </section>
+        </div>
+
+        <!-- ===== 3D TAB ===== -->
+        <div class="component-placeholder" data-component="TabsContent">
+          <section class="container mx-auto px-4 py-12">
+            <div class="text-center mb-10">
+              <div class="inline-flex items-center gap-2 bg-construction-accent/10 text-construction-accent px-4 py-2 rounded-full mb-4">
+                <span class="icon-placeholder">Box</span>
+                <span class="font-semibold">العرض التفاعلي ثلاثي الأبعاد</span>
+              </div>
+              <p class="text-muted-foreground max-w-xl mx-auto">
+                استعرض مشاريعنا بتقنية العرض ثلاثي الأبعاد التفاعلي - قم بالتدوير والتكبير لاستكشاف كل التفاصيل
+              </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              <div class="dynamic-placeholder">قائمة ديناميكية من المصدر: <strong>models3D.map(...)</strong> — لم يتم تنفيذ JavaScript داخل التحويل الثابت.</div>
+            </div>
+
+            {models3D.every(m => !m.embedUrl) && (
+              <motion.div 
+                initial={}
+                animate={}
+                class="text-center mt-8 p-8 border-2 border-dashed rounded-2xl bg-muted/30"
+              >
+                <span class="icon-placeholder">Box</span>
+                <h3 class="text-xl font-bold text-foreground mb-2">قريباً - نماذج ثلاثية الأبعاد</h3>
+                <p class="text-muted-foreground max-w-md mx-auto">
+                  سيتم إضافة نماذج تفاعلية ثلاثية الأبعاد لمشاريعنا قريباً. يمكنك إضافة روابط النماذج من لوحة التحكم.
+                </p>
+              </motion.div>
+            )}
+          </section>
+        </div>
+      </div>
+
+      <!-- Lightbox -->
+      <div class="component-placeholder" data-component="Dialog">
+        <div class="component-placeholder" data-component="DialogContent">
+          <div class="relative w-full h-full flex items-center justify-center">
+            <button
+              class="absolute top-4 right-4 z-50 w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center backdrop-blur-sm">
+              <span class="icon-placeholder">X</span>
+            </button>
+
+            <button
+              class="absolute right-4 top-1/2 -translate-y-1/2 z-50 w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center backdrop-blur-sm">
+              <span class="icon-placeholder">ChevronRight</span>
+            </button>
+            <button
+              class="absolute left-4 top-1/2 -translate-y-1/2 z-50 w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center backdrop-blur-sm">
+              <span class="icon-placeholder">ChevronLeft</span>
+            </button>
+
+            <div class="component-placeholder" data-component="AnimatePresence">
+              {selectedImage && (
+                <motion.div class="relative max-w-full max-h-full p-6"
+                  initial={} animate={} exit={} transition={}>
+                  <img src=<span data-js-var="selectedImage.src"></span> alt=""
+                    class="max-w-full max-h-[82vh] object-contain rounded-lg" />
+                  <div class="absolute bottom-0 left-0 right-0 p-5 bg-gradient-to-t from-black/80 to-transparent rounded-b-lg">
+                    <div class="flex items-center justify-between">
+                      <div>
+                        <h3 class="text-white font-bold text-xl text-right"><span data-js-var="selectedImage.title"></span></h3>
+                        
+                      </div>
+                      <button class="dynamic-class">
+                        <span class="icon-placeholder">Heart</span>
+                      </button>
+                    </div>
+                    <p class="text-white/40 text-sm text-right mt-2"> / <span data-js-var="filteredImages.length"></span></p>
+                  </div>
+                </motion.div>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <section class="py-16 bg-gradient-to-br from-construction-primary via-construction-dark to-construction-primary text-white text-center relative overflow-hidden">
+        <div class="container mx-auto px-4 relative z-10">
+          <motion.div initial={} whileInView={} viewport={}>
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">هل أعجبك ما رأيت؟</h2>
+            <p class="text-lg text-white/70 mb-8 max-w-xl mx-auto">
+              تواصل معنا للحصول على استشارة مجانية وتصميم مخصص
+            </p>
+            <div class="flex flex-col sm:flex-row gap-3 justify-center">
+              <a href="/contact">
+                <div class="component button">
+                  تواصل معنا
+                </div>
+              </a>
+              <a href="/services">
+                <div class="component button">
+                  خدماتنا
+                </div>
+              </a>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      <div class="component-placeholder">مكوّن مستورد: <strong>Footer</strong></div>
+    </div>
+      <div class="source-note">تم التحويل من الملف الأصلي: <code>Portfolio.tsx</code>. هذه نسخة HTML ثابتة؛ الأجزاء المعتمدة على React/JavaScript أو مكوّنات خارج الحزمة ظهرت كعناصر Placeholder.</div>
+    </article>
+  </div>
+</body>
+</html>

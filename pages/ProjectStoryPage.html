@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Story</title>
+  <link rel="stylesheet" href="assets/static-conversion.css">
+</head>
+<body>
+  <header class="azab-topbar">
+    <strong>Project Story</strong> · <a href="index.html">فهرس الصفحات</a>
+  </header>
+  <div class="azab-shell">
+    <article class="azab-card converted-page">
+      <div class="bg-white min-h-screen">
+      <div class="container mx-auto px-4 py-8">
+        <header class="mb-8 flex items-center gap-4">
+          <a href="/projects-gallery">
+            <span class="icon-placeholder">ArrowLeft</span> العودة لكل المشاريع
+          </a>
+        </header>
+
+        <article class="max-w-4xl mx-auto bg-gray-50 rounded-xl shadow-lg p-6">
+          <img src=<span data-js-var="project.image"></span> alt="" class="rounded-lg shadow w-full h-64 object-cover mb-6" />
+          <figcaption class="text-center italic text-gray-500 mb-4"><span data-js-var="project.caption"></span></figcaption>
+          <h1 class="text-3xl font-bold mb-6 text-construction-primary"><span data-js-var="project.name"></span></h1>
+          <p class="mb-4 text-lg font-medium"><span data-js-var="project.intro"></span></p>
+          <div class="mb-4">
+            <h2 class="text-xl font-semibold mb-2 text-construction-secondary">التحديات والرؤية</h2>
+            <p class="text-gray-700"><span data-js-var="project.challenge"></span></p>
+          </div>
+          <div class="mb-4">
+            <h2 class="text-xl font-semibold mb-2 text-construction-secondary">النتائج والتأثير</h2>
+            <p class="text-gray-700"><span data-js-var="project.outcome"></span></p>
+          </div>
+
+          <blockquote class="bg-construction-primary/10 border-r-4 border-construction-primary text-gray-700 italic p-4 mb-6 rounded">
+            “<span data-js-var="project.quote"></span>”
+            <footer class="text-xs text-construction-primary mt-2">— <span data-js-var="project.quoteAuthor"></span></footer>
+          </blockquote>
+
+          <section class="bg-white p-3 rounded-lg mb-6 border">
+            <ul class="grid grid-cols-2 md:grid-cols-4 gap-2">
+              <li><strong>الفئة:</strong> <span data-js-var="project.category"></span></li>
+              <li><strong>العميل:</strong> <span data-js-var="project.client"></span></li>
+              <li><strong>الموقع:</strong> <span data-js-var="project.location"></span></li>
+              <li><strong>سنة الإنجاز:</strong> <span data-js-var="project.year"></span></li>
+            </ul>
+            <div class="mt-2">
+              <a href=<span data-js-var="project.link"></span> target="_blank" class="text-construction-primary underline text-sm">رابط المشروع</a>
+            </div>
+          </section>
+
+          {project.stats && (
+            <section class="mb-8">
+              <h3 class="text-lg font-bold mb-3 text-construction-primary">المواصفات والإحصاءات</h3>
+              <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+                
+                
+                
+                
+                
+                
+                
+                
+                
+              </div>
+            </section>
+          )}
+
+          {project.model3dUrl && (
+            <section class="mb-8">
+              <h3 class="text-lg font-bold mb-3 text-construction-primary">استكشف في ثلاثي الأبعاد</h3>
+              <div class="overflow-hidden rounded-lg bg-gray-200">
+                <iframe
+                  src=<span data-js-var="project.model3dUrl"></span>
+                  width="100%"
+                  height="500"
+                  style={}
+                  allowFullScreen
+                  loading="lazy"
+                  title=
+                ></iframe>
+              </div>
+            </section>
+          )}
+
+          <div class="flex flex-col sm:flex-row gap-4 mt-6">
+            <a href="/projects-gallery">
+              اكتشف المزيد من المشاريع
+            </a>
+            <a href="/contact">
+              اطلب تصميمك الخاص الآن
+            </a>
+          </div>
+        </article>
+        <footer class="text-center text-construction-primary mt-12 text-lg font-semibold py-8">مشاريعنا تتحدث عنّا — نحن لا نبني فقط، بل نرسم تفاصيل الحياة.</footer>
+      </div>
+    </div>
+      <div class="source-note">تم التحويل من الملف الأصلي: <code>ProjectStoryPage.tsx</code>. هذه نسخة HTML ثابتة؛ الأجزاء المعتمدة على React/JavaScript أو مكوّنات خارج الحزمة ظهرت كعناصر Placeholder.</div>
+    </article>
+  </div>
+</body>
+</html>

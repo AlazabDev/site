@@ -1,0 +1,1094 @@
+Folder PATH listing for volume DATA
+Volume serial number is 00000012 7879:4F7E
+D:.
+|   404.html
+|   about.html
+|   contact.html
+|   index.html
+|   privacy.html
+|   project-details.html
+|   project-tree.txt
+|   projects.html
+|   quote.html
+|   service-details.html
+|   services.html
+|   starter-page.html
+|   team.html
+|   terms.html
+|   
++---assets
+|   +---css
+|   |       custom.css
+|   |       main.css
+|   |       static-conversion.css
+|   |       
+|   +---favicon
+|   |       android-chrome-192x192.png
+|   |       android-chrome-512x512.png
+|   |       apple-touch-icon.png
+|   |       favicon-16x16.png
+|   |       favicon-32x32.png
+|   |       favicon.ico
+|   |       favicon.png
+|   |       favicon.svg
+|   |       favicon002.png
+|   |       favicon003.png
+|   |       favicon004.png
+|   |       favicon005.png
+|   |       favicon006.png
+|   |       favicon008.png
+|   |       site.webmanifest
+|   |       
+|   +---fonts
+|   |       GE-SS-Two-Bold.otf
+|   |       HFWinterRose.ttf
+|   |       Jozoor.otf
+|   |       LibreBaskerville-Bold.ttf
+|   |       LibreBaskerville-BoldItalic.otf
+|   |       LibreBaskerville-Italic.ttf
+|   |       LibreBaskerville-Regular.ttf
+|   |       OFL.txt
+|   |       Roboto-Regular.ttf
+|   |       
+|   +---img
+|   |   |   apple-touch-icon.png
+|   |   |   az-logo.png
+|   |   |   favicon.ico
+|   |   |   framework-logo.svg
+|   |   |   logo-arabic.jpg
+|   |   |   logo-english.jpg
+|   |   |   logo.png
+|   |   |   logo.webp
+|   |   |   splash-icon.png
+|   |   |   
+|   |   +---abuauf
+|   |   |       abuauf-001.jpg
+|   |   |       abuauf-002.jpg
+|   |   |       abuauf-003.jpg
+|   |   |       abuauf-004.jpg
+|   |   |       abuauf-005.jpg
+|   |   |       abuauf-006.jpg
+|   |   |       abuauf-007.jpg
+|   |   |       abuauf-008.jpg
+|   |   |       abuauf-009.jpg
+|   |   |       abuauf-010.jpg
+|   |   |       abuauf-011.jpg
+|   |   |       abuauf-012.jpg
+|   |   |       abuauf-013.jpg
+|   |   |       abuauf-014.jpg
+|   |   |       abuauf-015.jpg
+|   |   |       abuauf-016.jpg
+|   |   |       abuauf-017.jpg
+|   |   |       abuauf-018.jpg
+|   |   |       abuauf-019.jpg
+|   |   |       abuauf-020.jpg
+|   |   |       abuauf-021.jpg
+|   |   |       abuauf-022.jpg
+|   |   |       abuauf-023.jpg
+|   |   |       abuauf-024.jpg
+|   |   |       abuauf-025.jpg
+|   |   |       abuauf-026.jpg
+|   |   |       abuauf-027.jpg
+|   |   |       abuauf-028.jpg
+|   |   |       abuauf-029.jpg
+|   |   |       abuauf-030.jpg
+|   |   |       abuauf-031.jpg
+|   |   |       abuauf-032.jpg
+|   |   |       abuauf-033.jpg
+|   |   |       abuauf-034.jpg
+|   |   |       abuauf-035.jpg
+|   |   |       abuauf-036.jpg
+|   |   |       abuauf-037.jpg
+|   |   |       abuauf-038.jpg
+|   |   |       abuauf-039.jpg
+|   |   |       abuauf-040.jpg
+|   |   |       abuauf-041.jpg
+|   |   |       abuauf-042.jpg
+|   |   |       abuauf-043.jpg
+|   |   |       abuauf-044.jpg
+|   |   |       abuauf-045.jpg
+|   |   |       abuauf-046.jpg
+|   |   |       abuauf-047.jpg
+|   |   |       abuauf-048.jpg
+|   |   |       abuauf-049.jpg
+|   |   |       abuauf-050.jpg
+|   |   |       
+|   |   +---banners
+|   |   |       banners-001.png
+|   |   |       banners-002.jpg
+|   |   |       banners-003.jpg
+|   |   |       banners-004.jpg
+|   |   |       banners-005.png
+|   |   |       banners-006.jpeg
+|   |   |       banners-007.jpg
+|   |   |       banners-008.jpg
+|   |   |       banners-009.jpg
+|   |   |       banners-010.jpg
+|   |   |       banners-011.png
+|   |   |       nature-001.avif
+|   |   |       nature-002.avif
+|   |   |       nature-003.avif
+|   |   |       nature-004.avif
+|   |   |       nature-005.avif
+|   |   |       nature-006.avif
+|   |   |       nature-007.avif
+|   |   |       nature-008.avif
+|   |   |       nature-009.avif
+|   |   |       nature-010.avif
+|   |   |       nature-011.avif
+|   |   |       nature-012.avif
+|   |   |       nature-013.avif
+|   |   |       nature-014.avif
+|   |   |       nature-015.avif
+|   |   |       nature-016.avif
+|   |   |       nature-017.avif
+|   |   |       nature-018.avif
+|   |   |       
+|   |   +---blog
+|   |   |       blog-001.jpg
+|   |   |       blog-002.jpg
+|   |   |       blog-003.png
+|   |   |       blog-004.png
+|   |   |       blog-005.png
+|   |   |       blog-006.png
+|   |   |       blog-007.png
+|   |   |       blog-008.jpeg
+|   |   |       blog-009.png
+|   |   |       blog-010.jpeg
+|   |   |       blog-011.jpeg
+|   |   |       blog-012.jpg
+|   |   |       blog-013.jpg
+|   |   |       blog-014.jpg
+|   |   |       blog-015.jpg
+|   |   |       blog-016.jpg
+|   |   |       
+|   |   +---brand
+|   |   |       brand-001.png
+|   |   |       brand-002.png
+|   |   |       brand-003.png
+|   |   |       brand-004.png
+|   |   |       brand-005.png
+|   |   |       brand-006.jpg
+|   |   |       brand-007.png
+|   |   |       brand-008.png
+|   |   |       brand-009.png
+|   |   |       brand-010.png
+|   |   |       brand-011.jpg
+|   |   |       brand-012.jpg
+|   |   |       brand-013.png
+|   |   |       brand-014.png
+|   |   |       brand-015.png
+|   |   |       brand-016.png
+|   |   |       brand-017.png
+|   |   |       brand-018.png
+|   |   |       brand-019.png
+|   |   |       brand-020.png
+|   |   |       brand-021.png
+|   |   |       brand-022.png
+|   |   |       brand-023.png
+|   |   |       brand-024.jpg
+|   |   |       brand-025.jpg
+|   |   |       brand-026.jpg
+|   |   |       brand-027.jpg
+|   |   |       brand-028.png
+|   |   |       brand-029.jpg
+|   |   |       brand-030.png
+|   |   |       brand-031.png
+|   |   |       brand-032.png
+|   |   |       brand-033.jpg
+|   |   |       brand-034.jpg
+|   |   |       brand-035.png
+|   |   |       
+|   |   +---construction
+|   |   |       construction-001.webp
+|   |   |       construction-002.webp
+|   |   |       construction-003.webp
+|   |   |       construction-004.webp
+|   |   |       construction-005.webp
+|   |   |       construction-006.webp
+|   |   |       construction-007.webp
+|   |   |       construction-008.jpg
+|   |   |       construction-009.webp
+|   |   |       construction-010.webp
+|   |   |       construction-011.jpg
+|   |   |       construction-012.jpg
+|   |   |       construction-013.gif
+|   |   |       construction-014.svg
+|   |   |       construction-015.jpg
+|   |   |       construction-016.jpg
+|   |   |       construction-017.jpg
+|   |   |       construction-018.png
+|   |   |       construction-019.jpg
+|   |   |       construction-020.webp
+|   |   |       construction-021.jpg
+|   |   |       construction-022.webp
+|   |   |       construction-023.jpg
+|   |   |       construction-024.jpg
+|   |   |       construction-025.jpg
+|   |   |       construction-026.webp
+|   |   |       construction-027.webp
+|   |   |       construction-028.jpg
+|   |   |       construction-029.jpeg
+|   |   |       construction-030.webp
+|   |   |       construction-031.webp
+|   |   |       construction-032.jpeg
+|   |   |       construction-033.png
+|   |   |       construction-034.png
+|   |   |       construction-035.webp
+|   |   |       construction-036.webp
+|   |   |       construction-037.webp
+|   |   |       construction-038.webp
+|   |   |       construction-039.webp
+|   |   |       construction-040.webp
+|   |   |       construction-041.webp
+|   |   |       construction-042.webp
+|   |   |       construction-043.webp
+|   |   |       construction-044.webp
+|   |   |       construction-045.webp
+|   |   |       construction-046.webp
+|   |   |       construction-047.webp
+|   |   |       construction-048.webp
+|   |   |       construction-049.webp
+|   |   |       construction-050.webp
+|   |   |       construction-051.webp
+|   |   |       construction-052.webp
+|   |   |       construction-053.webp
+|   |   |       construction-054.webp
+|   |   |       construction-055.webp
+|   |   |       construction-056.webp
+|   |   |       construction-057.webp
+|   |   |       construction-058.webp
+|   |   |       construction-059.mp4
+|   |   |       projects-001.jpeg
+|   |   |       projects-002.jpeg
+|   |   |       projects-003.jpeg
+|   |   |       projects-004.jpg
+|   |   |       projects-005.jpeg
+|   |   |       projects-006.jpg
+|   |   |       projects-007.jpg
+|   |   |       projects-008.jpg
+|   |   |       projects-009.jpg
+|   |   |       projects-010.jpg
+|   |   |       projects-011.jpg
+|   |   |       projects-014.jpg
+|   |   |       projects-015.jpg
+|   |   |       projects-020.jpg
+|   |   |       projects-021.jpg
+|   |   |       projects-022.jpg
+|   |   |       projects-023.jpg
+|   |   |       projects-024.jpg
+|   |   |       projects-025.jpg
+|   |   |       projects-026.jpg
+|   |   |       projects-031.png
+|   |   |       projects-032.jpg
+|   |   |       projects-033.jpeg
+|   |   |       projects-034.jpeg
+|   |   |       projects-035.jpg
+|   |   |       projects-036.jpg
+|   |   |       projects-037.jpg
+|   |   |       projects-038.jpg
+|   |   |       projects-039.jpg
+|   |   |       projects-040.jpg
+|   |   |       projects-041.jpg
+|   |   |       projects-042.jpg
+|   |   |       projects-043.jpg
+|   |   |       projects-044.jpeg
+|   |   |       projects-045.jpeg
+|   |   |       projects-046.jpeg
+|   |   |       services-001.jpg
+|   |   |       services-002.jpg
+|   |   |       services-003.jpg
+|   |   |       services-004.jpeg
+|   |   |       services-005.jpg
+|   |   |       services-006.jpg
+|   |   |       services-007.jpg
+|   |   |       services-008.jpg
+|   |   |       services-009.jpg
+|   |   |       services-010.jpg
+|   |   |       services-011.jpg
+|   |   |       services-012.jpeg
+|   |   |       services-013.jpg
+|   |   |       services-014.jpg
+|   |   |       services-015.arw
+|   |   |       services-016.jpg
+|   |   |       services-017.jpg
+|   |   |       services-018.jpg
+|   |   |       services-019.jpg
+|   |   |       services-020.jpg
+|   |   |       services-021.jpg
+|   |   |       services-022.jpg
+|   |   |       services-023.jpg
+|   |   |       services-024.jpg
+|   |   |       services-025.jpg
+|   |   |       services-026.png
+|   |   |       services-027.webp
+|   |   |       services-028.png
+|   |   |       services-029.png
+|   |   |       services-030.webp
+|   |   |       services-031.webp
+|   |   |       services-032.png
+|   |   |       services-033.webp
+|   |   |       services-034.webp
+|   |   |       services-035.webp
+|   |   |       services-036.webp
+|   |   |       services-037.webp
+|   |   |       services-038.jpg
+|   |   |       services-039.png
+|   |   |       
+|   |   +---featured
+|   |   |       featured-001.png
+|   |   |       featured-002.png
+|   |   |       featured-003.png
+|   |   |       featured-004.png
+|   |   |       featured-005.png
+|   |   |       featured-006.png
+|   |   |       featured-007.png
+|   |   |       featured-008.png
+|   |   |       featured-009.png
+|   |   |       featured-010.png
+|   |   |       featured-011.png
+|   |   |       featured-012.png
+|   |   |       featured-013.png
+|   |   |       featured-014.png
+|   |   |       featured-015.png
+|   |   |       
+|   |   +---gif
+|   |   |       gif-001.gif
+|   |   |       gif-002.gif
+|   |   |       gif-003.gif
+|   |   |       gif-004.gif
+|   |   |       gif-005.gif
+|   |   |       gif-006.gif
+|   |   |       gif-007.gif
+|   |   |       gif-008.gif
+|   |   |       gif-009.gif
+|   |   |       gif-010.gif
+|   |   |       
+|   |   +---icon
+|   |   |       icon-001.jpg
+|   |   |       icon-002.jpg
+|   |   |       icon-003.jpg
+|   |   |       icon-004.jpg
+|   |   |       icon-005.jpg
+|   |   |       icon-006.jpg
+|   |   |       icon-007.jpg
+|   |   |       icon-008.jpg
+|   |   |       icon-009.jpg
+|   |   |       icon-010.jpg
+|   |   |       icon-011.jpg
+|   |   |       icon-012.jpg
+|   |   |       icon-013.jpg
+|   |   |       icon-014.jpg
+|   |   |       icon-015.jpg
+|   |   |       icon-016.jpg
+|   |   |       icon-017.jpg
+|   |   |       icon-018.png
+|   |   |       icon-019.png
+|   |   |       icon-020.png
+|   |   |       icon-021.png
+|   |   |       icon-022.png
+|   |   |       icon-023.png
+|   |   |       icon-024.png
+|   |   |       icon-025.png
+|   |   |       icon-026.png
+|   |   |       icon-027.png
+|   |   |       icon-028.png
+|   |   |       icon-029.png
+|   |   |       icon-030.png
+|   |   |       icon-031.png
+|   |   |       icon-032.jpg
+|   |   |       icon-033.jpg
+|   |   |       icon-034.png
+|   |   |       icon-035.png
+|   |   |       icon-036.png
+|   |   |       icon-037.png
+|   |   |       icon-038.png
+|   |   |       icon-039.png
+|   |   |       icon-040.png
+|   |   |       icon-041.png
+|   |   |       icon-042.png
+|   |   |       icon-043.png
+|   |   |       icon-044.png
+|   |   |       icon-045.png
+|   |   |       icon-046.png
+|   |   |       icon-047.png
+|   |   |       icon-048.png
+|   |   |       icon-049.png
+|   |   |       icon-050.png
+|   |   |       icon-051.png
+|   |   |       icon-052.png
+|   |   |       icon-053.png
+|   |   |       icon-054.png
+|   |   |       icon-055.png
+|   |   |       icon-056.png
+|   |   |       icon-057.png
+|   |   |       icon-058.png
+|   |   |       icon-059.png
+|   |   |       icon-060.png
+|   |   |       icon-061.png
+|   |   |       icon-062.png
+|   |   |       icon-063.png
+|   |   |       icon-064.png
+|   |   |       icon-065.png
+|   |   |       icon-066.png
+|   |   |       icon-067.png
+|   |   |       icon-068.png
+|   |   |       icon-069.png
+|   |   |       icon-070.png
+|   |   |       icon-071.png
+|   |   |       icon-072.png
+|   |   |       icon-073.png
+|   |   |       icon-074.png
+|   |   |       icon-075.png
+|   |   |       icon-076.png
+|   |   |       icon-077.png
+|   |   |       icon-078.png
+|   |   |       icon-079.png
+|   |   |       icon-080.png
+|   |   |       icon-081.svg
+|   |   |       icon-082.png
+|   |   |       icon-083.png
+|   |   |       icon-084.png
+|   |   |       icon-085.png
+|   |   |       icon-086.png
+|   |   |       icon-087.jpeg
+|   |   |       icon-088.png
+|   |   |       icon-089.png
+|   |   |       icon-090.png
+|   |   |       icon-091.png
+|   |   |       icon-092.jpg
+|   |   |       icon-093.jpg
+|   |   |       icon-094.jpg
+|   |   |       icon-095.jpg
+|   |   |       icon-096.jpg
+|   |   |       icon-097.jpg
+|   |   |       icon-098.jpg
+|   |   |       icon-099.jpg
+|   |   |       icon-100.jpg
+|   |   |       icon-101.jpg
+|   |   |       icon-102.jpg
+|   |   |       icon-103.jpg
+|   |   |       icon-104.jpg
+|   |   |       icon-105.jpg
+|   |   |       icon-106.jpg
+|   |   |       icon-107.jpg
+|   |   |       icon-108.jpg
+|   |   |       icon-109.jpg
+|   |   |       icon-110.jpg
+|   |   |       icon-111.jpg
+|   |   |       icon-112.jpg
+|   |   |       icon-113.jpg
+|   |   |       icon-114.jpg
+|   |   |       icon-115.jpg
+|   |   |       icon-116.jpg
+|   |   |       icon-117.jpg
+|   |   |       icon-118.jpg
+|   |   |       icon-119.jpg
+|   |   |       icon-120.jpg
+|   |   |       icon-121.jpg
+|   |   |       icon-122.jpg
+|   |   |       icon-123.jpg
+|   |   |       icon-124.jpg
+|   |   |       icon-125.jpg
+|   |   |       icon-126.jpg
+|   |   |       icon-127.jpg
+|   |   |       icon-128.jpg
+|   |   |       icon-129.jpg
+|   |   |       icon-130.jpg
+|   |   |       icon-131.jpg
+|   |   |       icon-132.jpg
+|   |   |       icon-133.jpg
+|   |   |       icon-134.jpg
+|   |   |       icon-135.avif
+|   |   |       icon-136.avif
+|   |   |       icon-137.jpg
+|   |   |       icon-138.jpg
+|   |   |       icon-139.jpg
+|   |   |       icon-140.jpg
+|   |   |       icon-141.jpg
+|   |   |       icon-142.jpg
+|   |   |       icon-143.jpg
+|   |   |       icon-144.jpg
+|   |   |       icon-145.jpg
+|   |   |       icon-146.jpg
+|   |   |       icon-147.jpg
+|   |   |       icon-148.jpg
+|   |   |       icon-149.jpg
+|   |   |       icon-150.jpg
+|   |   |       icon-151.jpg
+|   |   |       icon-152.jpg
+|   |   |       icon-153.jpg
+|   |   |       icon-154.jpg
+|   |   |       icon-155.jpg
+|   |   |       icon-156.jpg
+|   |   |       icon-157.jpg
+|   |   |       icon-158.jpg
+|   |   |       icon-159.jpg
+|   |   |       icon-160.jpg
+|   |   |       icon-161.jpg
+|   |   |       icon-162.jpg
+|   |   |       icon-163.jpg
+|   |   |       icon-164.jpg
+|   |   |       icon-165.jpg
+|   |   |       icon-166.jpg
+|   |   |       icon-167.jpg
+|   |   |       
+|   |   +---logo
+|   |   |       logo-001.png
+|   |   |       logo-002.png
+|   |   |       logo-003.png
+|   |   |       logo-004.png
+|   |   |       logo-005.png
+|   |   |       logo-006.png
+|   |   |       logo-007.png
+|   |   |       logo-008.png
+|   |   |       logo-009.svg
+|   |   |       logo-010.png
+|   |   |       logo-011.svg
+|   |   |       logo-012.jpeg
+|   |   |       logo-013.jpeg
+|   |   |       logo-014.jpeg
+|   |   |       logo-015.gif
+|   |   |       logo-016.jpg
+|   |   |       logo-017.png
+|   |   |       logo-018.jpg
+|   |   |       logo-019.png
+|   |   |       logo-020.webp
+|   |   |       logo-021.png
+|   |   |       
+|   |   +---maintenance
+|   |   |       maintenance-001.jpeg
+|   |   |       maintenance-002.svg
+|   |   |       maintenance-003.svg
+|   |   |       maintenance-004.jpg
+|   |   |       maintenance-005.jpg
+|   |   |       maintenance-006.jpg
+|   |   |       maintenance-007.jpg
+|   |   |       maintenance-008.jpg
+|   |   |       maintenance-009.jpg
+|   |   |       maintenance-010.jpg
+|   |   |       maintenance-011.jpg
+|   |   |       maintenance-012.jpg
+|   |   |       maintenance-013.jpg
+|   |   |       maintenance-014.jpg
+|   |   |       maintenance-015.jpg
+|   |   |       maintenance-016.jpeg
+|   |   |       maintenance-017.svg
+|   |   |       maintenance-018.png
+|   |   |       maintenance-019.jpg
+|   |   |       maintenance-020.jpeg
+|   |   |       
+|   |   +---person
+|   |   |       person-001.png
+|   |   |       person-002.jpg
+|   |   |       person-003.png
+|   |   |       person-004.jpg
+|   |   |       person-005.png
+|   |   |       person-006.webp
+|   |   |       person-007.webp
+|   |   |       person-008.webp
+|   |   |       person-009.webp
+|   |   |       person-010.webp
+|   |   |       person-011.webp
+|   |   |       person-012.webp
+|   |   |       person-013.jpg
+|   |   |       person-014.jpg
+|   |   |       person-015.webp
+|   |   |       person-016.webp
+|   |   |       person-017.webp
+|   |   |       person-018.webp
+|   |   |       person-019.webp
+|   |   |       
+|   |   +---shelves
+|   |   |       materials-001.webp
+|   |   |       materials-002.jpg
+|   |   |       materials-004.jpg
+|   |   |       materials-006.jpg
+|   |   |       materials-008.jpg
+|   |   |       materials-009.jpg
+|   |   |       materials-011.jpg
+|   |   |       materials-014.png
+|   |   |       materials-015.png
+|   |   |       materials-017.png
+|   |   |       materials-018.jpg
+|   |   |       materials-019.jpg
+|   |   |       materials-026.jpg
+|   |   |       materials-051.jpg
+|   |   |       materials-067.jpeg
+|   |   |       materials-070.webp
+|   |   |       materials-085.jpg
+|   |   |       materials-095.jpg
+|   |   |       shelves-001.jpg
+|   |   |       shelves-002.jpg
+|   |   |       shelves-003.jpg
+|   |   |       shelves-004.jpg
+|   |   |       shelves-005.jpg
+|   |   |       shelves-006.jpg
+|   |   |       shelves-007.jpg
+|   |   |       shelves-008.jpg
+|   |   |       shelves-009.jpg
+|   |   |       shelves-010.jpg
+|   |   |       shelves-011.jpg
+|   |   |       shelves-012.jpg
+|   |   |       shelves-013.jpg
+|   |   |       shelves-014.jpg
+|   |   |       shelves-015.jpg
+|   |   |       shelves-016.jpg
+|   |   |       shelves-017.jpg
+|   |   |       shelves-018.jpg
+|   |   |       shelves-019.jpg
+|   |   |       shelves-020.webp
+|   |   |       shelves-021.jpg
+|   |   |       shelves-022.jpg
+|   |   |       shelves-023.jpg
+|   |   |       shelves-024.jpg
+|   |   |       shelves-025.jpg
+|   |   |       shelves-026.jpg
+|   |   |       shelves-027.jpg
+|   |   |       shelves-028.jpg
+|   |   |       shelves-029.jpg
+|   |   |       shelves-030.jpg
+|   |   |       shelves-031.jpg
+|   |   |       shelves-032.jpg
+|   |   |       shelves-033.jpg
+|   |   |       shelves-034.jpg
+|   |   |       shelves-035.jpg
+|   |   |       shelves-036.jpg
+|   |   |       shelves-037.jpg
+|   |   |       shelves-038.jpg
+|   |   |       shelves-039.jpg
+|   |   |       shelves-040.jpg
+|   |   |       shelves-041.jpg
+|   |   |       shelves-042.png
+|   |   |       shelves-043.jpg
+|   |   |       shelves-044.jpg
+|   |   |       shelves-045.jpg
+|   |   |       shelves-046.jpg
+|   |   |       shelves-047.jpg
+|   |   |       shelves-048.jpg
+|   |   |       shelves-049.jpg
+|   |   |       shelves-050.jpg
+|   |   |       shelves-051.jpg
+|   |   |       shelves-052.jpg
+|   |   |       shelves-053.jpg
+|   |   |       shelves-054.jpg
+|   |   |       shelves-055.jpg
+|   |   |       shelves-056.jpg
+|   |   |       shelves-057.jpg
+|   |   |       shelves-058.jpg
+|   |   |       shelves-059.jpg
+|   |   |       shelves-060.jpg
+|   |   |       shelves-061.jpg
+|   |   |       shelves-062.jpg
+|   |   |       shelves-063.jpg
+|   |   |       shelves-064.jpg
+|   |   |       shelves-065.jpg
+|   |   |       shelves-066.jpg
+|   |   |       shelves-067.png
+|   |   |       shelves-068.jpg
+|   |   |       shelves-069.png
+|   |   |       shelves-070.jpg
+|   |   |       shelves-071.jpg
+|   |   |       shelves-072.jpg
+|   |   |       shelves-073.png
+|   |   |       shelves-074.jpg
+|   |   |       shelves-075.jpg
+|   |   |       shelves-076.jpg
+|   |   |       shelves-077.jpg
+|   |   |       shelves-078.jpg
+|   |   |       shelves-079.jpg
+|   |   |       shelves-080.png
+|   |   |       shelves-081.jpg
+|   |   |       shelves-082.jpg
+|   |   |       shelves-083.jpg
+|   |   |       shelves-084.jpg
+|   |   |       shelves-085.jpg
+|   |   |       shelves-086.jpg
+|   |   |       shelves-087.jpg
+|   |   |       shelves-088.jpg
+|   |   |       shelves-089.jpg
+|   |   |       shelves-090.jpg
+|   |   |       shelves-091.jpg
+|   |   |       shelves-092.jpg
+|   |   |       shelves-093.jpg
+|   |   |       shelves-094.jpg
+|   |   |       shelves-095.jpg
+|   |   |       shelves-096.jpg
+|   |   |       shelves-097.jpg
+|   |   |       shelves-098.jpg
+|   |   |       shelves-099.png
+|   |   |       shelves-100.jpg
+|   |   |       shelves-101.jpg
+|   |   |       shelves-102.jpg
+|   |   |       shelves-103.jpg
+|   |   |       shelves-104.jpg
+|   |   |       shelves-105.jpg
+|   |   |       shelves-106.jpg
+|   |   |       shelves-107.jpg
+|   |   |       shelves-108.jpg
+|   |   |       shelves-109.jpg
+|   |   |       shelves-110.jpg
+|   |   |       shelves-111.webp
+|   |   |       shelves-112.jpg
+|   |   |       shelves-113.jpg
+|   |   |       shelves-114.jpg
+|   |   |       shelves-115.jpg
+|   |   |       shelves-116.jpg
+|   |   |       shelves-117.jpg
+|   |   |       shelves-118.png
+|   |   |       shelves-119.webp
+|   |   |       shelves-120.jpg
+|   |   |       shelves-121.jpg
+|   |   |       shelves-122.jpg
+|   |   |       shelves-123.jpg
+|   |   |       shelves-124.jpg
+|   |   |       shelves-125.jpg
+|   |   |       shelves-126.jpg
+|   |   |       shelves-127.jpg
+|   |   |       shelves-128.png
+|   |   |       shelves-129.jpg
+|   |   |       
+|   |   +---team
+|   |   |       ceo-mohamed-azab.jpg
+|   |   |       coo-magdy-azab.jpg
+|   |   |       cpo-mahmoud-saad.jpg
+|   |   |       cs-rahma-khaled.jpg
+|   |   |       eng-eslam-ibrahim.jpg
+|   |   |       eng-karim-elsid.jpg
+|   |   |       founder-ahmed-allam.jpg
+|   |   |       hr-farida-hassan.jpg
+|   |   |       lider-team.png
+|   |   |       martyrs-ahmed-siam-and-elsayed-azab.jpg
+|   |   |       superviser-mohamed-syam.jpg
+|   |   |       
+|   |   +---units
+|   |   |       units-001.jpg
+|   |   |       units-002.jpg
+|   |   |       units-003.jpg
+|   |   |       units-004.jpg
+|   |   |       units-005.jpg
+|   |   |       units-006.jpg
+|   |   |       units-007.jpg
+|   |   |       units-008.jpg
+|   |   |       units-009.jpg
+|   |   |       units-010.jpg
+|   |   |       units-011.jpg
+|   |   |       units-012.jpg
+|   |   |       units-013.jpg
+|   |   |       units-014.jpg
+|   |   |       units-015.jpg
+|   |   |       units-016.jpg
+|   |   |       units-017.jpg
+|   |   |       units-018.jpg
+|   |   |       units-019.jpg
+|   |   |       units-020.jpg
+|   |   |       units-021.jpg
+|   |   |       units-022.jpg
+|   |   |       units-023.jpg
+|   |   |       units-024.jpg
+|   |   |       units-025.jpg
+|   |   |       units-026.jpg
+|   |   |       units-027.jpg
+|   |   |       units-028.jpg
+|   |   |       units-029.jpg
+|   |   |       units-030.jpg
+|   |   |       units-031.jpg
+|   |   |       units-032.jpg
+|   |   |       units-033.jpg
+|   |   |       units-034.jpg
+|   |   |       units-035.jpg
+|   |   |       units-036.jpg
+|   |   |       units-037.jpg
+|   |   |       units-038.jpg
+|   |   |       units-039.jpg
+|   |   |       units-040.jpg
+|   |   |       units-041.jpg
+|   |   |       units-042.jpg
+|   |   |       units-043.jpg
+|   |   |       units-044.jpg
+|   |   |       units-045.jpg
+|   |   |       units-046.jpg
+|   |   |       units-047.jpg
+|   |   |       units-048.jpg
+|   |   |       units-049.jpg
+|   |   |       units-050.jpg
+|   |   |       units-051.jpg
+|   |   |       units-052.jpg
+|   |   |       units-053.jpg
+|   |   |       units-054.jpg
+|   |   |       units-055.jpg
+|   |   |       units-056.png
+|   |   |       units-057.jpg
+|   |   |       units-058.jpg
+|   |   |       units-059.jpg
+|   |   |       units-060.jpg
+|   |   |       units-061.jpg
+|   |   |       units-062.jpg
+|   |   |       units-063.jpg
+|   |   |       units-064.jpg
+|   |   |       units-065.jpg
+|   |   |       units-066.jpg
+|   |   |       units-067.jpg
+|   |   |       units-068.jpg
+|   |   |       units-069.jpg
+|   |   |       units-070.jpg
+|   |   |       units-071.jpg
+|   |   |       units-072.jpg
+|   |   |       units-073.jpg
+|   |   |       units-074.jpg
+|   |   |       units-075.jpg
+|   |   |       units-076.jpg
+|   |   |       units-077.jpg
+|   |   |       units-078.jpg
+|   |   |       units-079.jpg
+|   |   |       units-080.jpg
+|   |   |       units-081.jpeg
+|   |   |       units-082.jpg
+|   |   |       units-083.jpg
+|   |   |       units-084.jpeg
+|   |   |       units-085.jpg
+|   |   |       units-086.jpg
+|   |   |       units-087.jpeg
+|   |   |       units-088.jpeg
+|   |   |       units-089.jpeg
+|   |   |       units-090.jpeg
+|   |   |       units-091.jpg
+|   |   |       units-092.jpg
+|   |   |       
+|   |   \---vid
+|   |           vid-001.mp4
+|   |           vid-002.mp4
+|   |           vid-003.mp4
+|   |           
+|   +---js
+|   |       main.js
+|   |       translation.js
+|   |       
+|   +---misc
+|   |       misc-001.mp3
+|   |       misc-002.mp3
+|   |       misc-003.mp3
+|   |       misc-004.mp3
+|   |       misc-005.mp3
+|   |       
+|   +---scss
+|   |       Readme.txt
+|   |       
+|   \---vendor
+|       +---aos
+|       |       aos.cjs.js
+|       |       aos.css
+|       |       aos.esm.js
+|       |       aos.js
+|       |       aos.js.map
+|       |       
+|       +---bootstrap
+|       |   +---css
+|       |   |       bootstrap-grid.css
+|       |   |       bootstrap-grid.css.map
+|       |   |       bootstrap-grid.min.css
+|       |   |       bootstrap-grid.min.css.map
+|       |   |       bootstrap-grid.rtl.css
+|       |   |       bootstrap-grid.rtl.css.map
+|       |   |       bootstrap-grid.rtl.min.css
+|       |   |       bootstrap-grid.rtl.min.css.map
+|       |   |       bootstrap-reboot.css
+|       |   |       bootstrap-reboot.css.map
+|       |   |       bootstrap-reboot.min.css
+|       |   |       bootstrap-reboot.min.css.map
+|       |   |       bootstrap-reboot.rtl.css
+|       |   |       bootstrap-reboot.rtl.css.map
+|       |   |       bootstrap-reboot.rtl.min.css
+|       |   |       bootstrap-reboot.rtl.min.css.map
+|       |   |       bootstrap-utilities.css
+|       |   |       bootstrap-utilities.css.map
+|       |   |       bootstrap-utilities.min.css
+|       |   |       bootstrap-utilities.min.css.map
+|       |   |       bootstrap-utilities.rtl.css
+|       |   |       bootstrap-utilities.rtl.css.map
+|       |   |       bootstrap-utilities.rtl.min.css
+|       |   |       bootstrap-utilities.rtl.min.css.map
+|       |   |       bootstrap.css
+|       |   |       bootstrap.css.map
+|       |   |       bootstrap.min.css
+|       |   |       bootstrap.min.css.map
+|       |   |       bootstrap.rtl.css
+|       |   |       bootstrap.rtl.css.map
+|       |   |       bootstrap.rtl.min.css
+|       |   |       bootstrap.rtl.min.css.map
+|       |   |       
+|       |   \---js
+|       |           bootstrap.bundle.js
+|       |           bootstrap.bundle.js.map
+|       |           bootstrap.bundle.min.js
+|       |           bootstrap.bundle.min.js.map
+|       |           bootstrap.esm.js
+|       |           bootstrap.esm.js.map
+|       |           bootstrap.esm.min.js
+|       |           bootstrap.esm.min.js.map
+|       |           bootstrap.js
+|       |           bootstrap.js.map
+|       |           bootstrap.min.js
+|       |           bootstrap.min.js.map
+|       |           
+|       +---bootstrap-icons
+|       |   |   bootstrap-icons.css
+|       |   |   bootstrap-icons.json
+|       |   |   bootstrap-icons.min.css
+|       |   |   bootstrap-icons.scss
+|       |   |   
+|       |   \---fonts
+|       |           bootstrap-icons.woff
+|       |           bootstrap-icons.woff2
+|       |           
+|       +---glightbox
+|       |   +---css
+|       |   |       glightbox.css
+|       |   |       glightbox.min.css
+|       |   |       
+|       |   \---js
+|       |           glightbox.js
+|       |           glightbox.min.js
+|       |           
+|       +---php-email-form
+|       |       validate.js
+|       |       
+|       \---swiper
+|               swiper-bundle.min.css
+|               swiper-bundle.min.js
+|               swiper-bundle.min.js.map
+|               
++---forms
+|       contact.php
+|       get-a-quote.php
+|       Readme.txt
+|       
++---knowledge
+|   |   assistant-policy.md
+|   |   commercial-projects-knowledge-layer.md
+|   |   data-is-future-oil.md
+|   |   enterprise-master-knowledge.md
+|   |   founder-word.md
+|   |   knowledge_base.txt
+|   |   maintenance-knowledge-layer.md
+|   |   minimum-lead-data.md
+|   |   official-links.md
+|   |   operating-model.md
+|   |   residential-projects-knowledge-layer.md
+|   |   routing-rules.md
+|   |   supply-knowledge-layer.md
+|   |   
+|   \---faq
+|           faq_001-??-??-??????-??????.md
+|           faq_002-??-????????-???????-???????-??????.md
+|           faq_003-???-????-??????-???????-??????.md
+|           faq_004-??-????-?????-???-??-???-??????.md
+|           faq_005-??-????????-??????-????????-????-???-?????.md
+|           faq_006-??-??????-?????-????-???????-????.md
+|           faq_007-??-?????-???-??????-???????-????????-????????.md
+|           faq_008-??-???????-???-???-????-???-???????.md
+|           faq_009-??-??-????-brand-identity?.md
+|           faq_010-??-brand-identity-????-?????-????-????.md
+|           faq_011-??-????????-????????-??????-???-??????.md
+|           faq_012-??-????-?????-?????-????-????-???????.md
+|           faq_013-??-?????-???-?????-?????-????????.md
+|           faq_014-??-???-?????-???-?????-????????-?????????.md
+|           faq_015-??-????-????-????-?????-???-????????.md
+|           faq_016-???-?????-?????-???-brand-identity?.md
+|           faq_017-??-??-????-luxury-finishing?.md
+|           faq_018-??-????????-????????-???-???-??????.md
+|           faq_019-??-????-?????-????-???-??????.md
+|           faq_020-??-????-?????-???-??????.md
+|           faq_021-??-???????-??????-????-?????-??????-???????.md
+|           faq_022-??-??????-?????-?????-????.md
+|           faq_023-??-?????-???-luxury-finishing-?brand-identity?.md
+|           faq_024-???-?????-?????-???-luxury-finishing?.md
+|           faq_025-??-??-uberfix?.md
+|           faq_026-???-????-???-??????.md
+|           faq_027-??-????????-????????-?????-??????.md
+|           faq_028-??-uberfix-??????-??-????????.md
+|           faq_029-??-????-??????-???-?????-?????.md
+|           faq_030-??-???????-??-facilities-management?.md
+|           faq_031-??-????-?????-???-??????.md
+|           faq_032-???-?????-?????-???-uberfix?.md
+|           faq_033-??-??-laban-alasfour?.md
+|           faq_034-??-????????-????????-????-??????.md
+|           faq_035-??-????-?????-??-????-?????-??-?????.md
+|           faq_036-??-laban-alasfour-????-????????.md
+|           faq_037-??-????-???-??????-cad-??-glb?.md
+|           faq_038-??-????-?????-????-??????-??-???-??????.md
+|           faq_039-??-?????-???-laban-alasfour-?luxury-finishing?.md
+|           faq_040-???-?????-?????-???-laban-alasfour?.md
+|           faq_041-??-?????-????-???-???????.md
+|           faq_042-????-????-???-???-?????????.md
+|           faq_043-??-????-?????-???????-???-?????????.md
+|           faq_044-??-????-?????-??-???-????.md
+|           faq_045-??-?????-????-??????-????????.md
+|           faq_046-??-??????-????-???-??????.md
+|           faq_047-??-?????-????-????????.md
+|           faq_048-??-????-???????-???????-??-mcp?.md
+|           faq_049-??-????-???????-???????-??-rasa?.md
+|           faq_050-??-????-???????-???????-??-rag?.md
+|           index.md
+|           
++---legal
+|       AcceptableUsePolicyPage.html
+|       CookiePolicyPage.html
+|       DataDeletionPage.html
+|       DisclaimerPage.html
+|       LegalContactPage.html
+|       PrivacyPolicyPage.html
+|       RefundPolicyPage.html
+|       SecurityDisclosurePage.html
+|       TermsOfServicePage.html
+|       
++---pages
+|       AboutPage.html
+|       AdminContentManager.html
+|       AdminDashboard.html
+|       AuthPage.html
+|       CEOPage.html
+|       ChatbotPage.html
+|       ChatbotTrainingPage.html
+|       ContactPage.html
+|       CONVERSION_REPORT.md
+|       CostCalculator.html
+|       DashboardPage.html
+|       FacebookPage.html
+|       FurnitureGallery.html
+|       index.html
+|       InternalWebhookPage.html
+|       MaintenanceList.html
+|       MaintenanceReports.html
+|       MaintenanceRequest.html
+|       MaintenanceRequestDetails.html
+|       MaintenanceTracking.html
+|       manifest.json
+|       MetaAccountsPage.html
+|       NotFound.html
+|       Portfolio.html
+|       ProfilePage.html
+|       ProjectDetails.html
+|       ProjectManagement.html
+|       ProjectPortfolioDetails.html
+|       ProjectsPage.html
+|       ProjectsShowcase.html
+|       ProjectStoryPage.html
+|       QuotationManagement.html
+|       ResetPasswordPage.html
+|       ServicesPage.html
+|       SettingsPage.html
+|       SitemapPage.html
+|       WebhookMonitorPage.html
+|       WhatsAppManagementPage.html
+|       WhatsAppSetupPage.html
+|       
+\---services
+        BrandIdentityPage.html
+        GeneralSuppliesPage.html
+        LabanAlasfourPage.html
+        LuxuryCleaningPage.html
+        LuxuryFinishingPage.html
+        MaintenanceRenovationPage.html
+        UberFixPage.html
+        

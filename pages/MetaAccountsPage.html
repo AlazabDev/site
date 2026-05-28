@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>إدارة حسابات Meta</title>
+  <link rel="stylesheet" href="assets/static-conversion.css">
+</head>
+<body>
+  <header class="azab-topbar">
+    <strong>إدارة حسابات Meta</strong> · <a href="index.html">فهرس الصفحات</a>
+  </header>
+  <div class="azab-shell">
+    <article class="azab-card converted-page">
+      <div class="component-placeholder" data-component="DashboardLayout">
+      <div class="space-y-6" dir="rtl">
+        <!-- Header -->
+        <div class="flex items-center justify-between">
+          <div>
+            <h1 class="text-2xl font-bold text-foreground">إدارة حسابات Meta</h1>
+            <p class="text-muted-foreground text-sm mt-1">إدارة ومراقبة حسابات واتساب الأعمال</p>
+          </div>
+          <div class="flex items-center gap-3">
+            
+            <div class="component button">
+              <span class="icon-placeholder">RefreshCw</span> تحديث
+            </div>
+            <div class="component-placeholder" data-component="Dialog"></span> onOpenChange=<span data-js-var="setShowAddDialog"></span>>
+              <div class="component-placeholder" data-component="DialogTrigger">
+                <div class="component button"><span class="icon-placeholder">Plus</span> حساب جديد</div>
+              </div>
+              <div class="component-placeholder" data-component="DialogContent">
+                <div class="component-placeholder" data-component="DialogHeader"><div class="component-placeholder" data-component="DialogTitle">إضافة حساب WhatsApp Business</div></div>
+                <div class="grid gap-3 mt-2">
+                  <div class="grid grid-cols-2 gap-3">
+                    <div><div class="component label">اسم العرض *</div><div class="component-placeholder">Input</div></div>
+                    <div><div class="component label">اسم النشاط</div><div class="component-placeholder">Input</div></div>
+                  </div>
+                  <div class="grid grid-cols-2 gap-3">
+                    <div><div class="component label">WABA ID</div><div class="component-placeholder">Input</div></div>
+                    <div><div class="component label">Phone Number ID</div><div class="component-placeholder">Input</div></div>
+                  </div>
+                  <div><div class="component label">رقم الهاتف</div><div class="component-placeholder">Input</div></div>
+                  <div><div class="component label">Access Token</div><div class="component-placeholder">Input</div></div>
+                  <div class="grid grid-cols-2 gap-3">
+                    <div><div class="component label">App Secret</div><div class="component-placeholder">Input</div></div>
+                    <div><div class="component label">Verify Token</div><div class="component-placeholder">Input</div></div>
+                  </div>
+                  <div class="component button">إنشاء الحساب</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+          <!-- Accounts List -->
+          <div class="lg:col-span-1 space-y-3">
+            <h3 class="font-semibold text-sm text-muted-foreground">الحسابات (<span data-js-var="accounts.length"></span>)</h3>
+            {loading ? (
+              <div class="component card"><div class="component cardcontent">جاري التحميل...</div></div>
+            ) : accounts.length === 0 ? (
+              <div class="component card"><div class="component cardcontent">لا توجد حسابات بعد</div></div>
+            ) : accounts.map(acc => (
+              <div class="component card">
+                <div class="component cardcontent">
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                      <span class="icon-placeholder">Phone</span>
+                      <span class="font-medium text-sm"><span data-js-var="acc.display_name"></span></span>
+                    </div>
+                    <div class="component badge">
+                      
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <!-- Account Details -->
+          <div class="lg:col-span-3">
+            {!selectedAccount ? (
+              <div class="component card"><div class="component cardcontent">
+                <span class="icon-placeholder">Server</span>
+                <p>اختر حساباً لعرض التفاصيل</p>
+              </div></div>
+            ) : (
+              <div class="component-placeholder" data-component="Tabs">
+                <div class="flex items-center justify-between mb-4">
+                  <div class="component-placeholder" data-component="TabsList">
+                    <div class="component-placeholder" data-component="TabsTrigger">نظرة عامة</div>
+                    <div class="component-placeholder" data-component="TabsTrigger">الرسائل</div>
+                    <div class="component-placeholder" data-component="TabsTrigger">المحادثات</div>
+                    <div class="component-placeholder" data-component="TabsTrigger">الإعدادات</div>
+                  </div>
+                  <div class="component button">
+                    <span class="icon-placeholder">Trash2</span>
+                  </div>
+                </div>
+
+                <!-- Overview -->
+                <div class="component-placeholder" data-component="TabsContent">
+                  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                    <div class="component card"><div class="component cardcontent">
+                      <span class="icon-placeholder">MessageSquare</span>
+                      <p class="text-2xl font-bold"></p>
+                      <p class="text-xs text-muted-foreground">إجمالي الرسائل</p>
+                    </div></div>
+                    <div class="component card"><div class="component cardcontent">
+                      <span class="icon-placeholder">ArrowUpDown</span>
+                      <p class="text-2xl font-bold"></p>
+                      <p class="text-xs text-muted-foreground">واردة</p>
+                    </div></div>
+                    <div class="component card"><div class="component cardcontent">
+                      <span class="icon-placeholder">Send</span>
+                      <p class="text-2xl font-bold"></p>
+                      <p class="text-xs text-muted-foreground">صادرة</p>
+                    </div></div>
+                    <div class="component card"><div class="component cardcontent">
+                      <span class="icon-placeholder">Clock</span>
+                      <p class="text-2xl font-bold"></p>
+                      <p class="text-xs text-muted-foreground">آخر 24 ساعة</p>
+                    </div></div>
+                  </div>
+
+                  {Number(stats?.messages.failed) > 0 && (
+                    <div class="component card">
+                      <div class="component cardcontent">
+                        <span class="icon-placeholder">AlertTriangle</span>
+                        <span class="text-sm"> رسالة فاشلة</span>
+                      </div>
+                    </div>
+                  )}
+
+                  <div class="component card">
+                    <div class="component cardheader"><div class="component cardtitle">رابط Webhook</div></div>
+                    <div class="component cardcontent">
+                      <div class="bg-muted p-3 rounded-md font-mono text-xs break-all" dir="ltr"><span data-js-var="webhookUrl"></span></div>
+                      <p class="text-xs text-muted-foreground mt-2">أضف هذا الرابط في إعدادات تطبيق Meta</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Messages -->
+                <div class="component-placeholder" data-component="TabsContent">
+                  <div class="component card">
+                    <div class="component cardcontent">
+                      
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Conversations -->
+                <div class="component-placeholder" data-component="TabsContent">
+                  <div class="component card">
+                    <div class="component cardcontent">
+                      
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Settings -->
+                <div class="component-placeholder" data-component="TabsContent">
+                  <div class="component card">
+                    <div class="component cardheader"><div class="component cardtitle"><span class="icon-placeholder">Settings</span> إعدادات الحساب</div></div>
+                    <div class="component cardcontent">
+                      <div class="grid grid-cols-2 gap-4">
+                        <div><div class="component label">WABA ID</div><p class="font-mono text-sm"></p></div>
+                        <div><div class="component label">Phone Number ID</div><p class="font-mono text-sm"></p></div>
+                        <div><div class="component label">رقم الهاتف</div><p class="font-mono text-sm" dir="ltr"></p></div>
+                        <div><div class="component label">الحالة</div><div class="component badge"><span data-js-var="selectedAccount.status"></span></div></div>
+                      </div>
+                      <div><div class="component label">تاريخ الإنشاء</div><p class="text-sm"></p></div>
+                      <div><div class="component label">آخر تحديث</div><p class="text-sm"></p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="source-note">تم التحويل من الملف الأصلي: <code>MetaAccountsPage.tsx</code>. هذه نسخة HTML ثابتة؛ الأجزاء المعتمدة على React/JavaScript أو مكوّنات خارج الحزمة ظهرت كعناصر Placeholder.</div>
+    </article>
+  </div>
+</body>
+</html>

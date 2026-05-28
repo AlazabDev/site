@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>نظام إدارة طلبات الصيانة</title>
+  <link rel="stylesheet" href="assets/static-conversion.css">
+</head>
+<body>
+  <header class="azab-topbar">
+    <strong>نظام إدارة طلبات الصيانة</strong> · <a href="index.html">فهرس الصفحات</a>
+  </header>
+  <div class="azab-shell">
+    <article class="azab-card converted-page">
+      <div class="component-placeholder" data-component="DashboardLayout">
+      <div class="space-y-6">
+        <!-- Header -->
+        <div class="flex items-center gap-4">
+          <div class="component button">
+            <span class="icon-placeholder">ArrowLeft</span>
+            الرجوع إلى القائمة
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg border border-gray-200">
+          <div class="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-6 rounded-t-lg">
+            <h1 class="text-2xl font-bold">نظام إدارة طلبات الصيانة</h1>
+          </div>
+
+          <div class="p-6 space-y-8">
+            <!-- Request Information -->
+            <div>
+              <h2 class="text-xl font-semibold mb-4 text-gray-800">معلومات الطلب</h2>
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="space-y-4">
+                  <div>
+                    <label class="text-sm font-medium text-gray-600">رقم الطلب:</label>
+                    <p class="font-semibold"><span data-js-var="requestDetails.id"></span></p>
+                  </div>
+                  <div>
+                    <label class="text-sm font-medium text-gray-600">الخدمة:</label>
+                    <p class="font-semibold"><span data-js-var="requestDetails.service_type"></span></p>
+                  </div>
+                  <div>
+                    <label class="text-sm font-medium text-gray-600">التصنيف:</label>
+                    <p class="font-semibold">صيانة</p>
+                  </div>
+                </div>
+                <div class="space-y-4">
+                  <div>
+                    <label class="text-sm font-medium text-gray-600">مرسل الطلب:</label>
+                    <p class="font-semibold"></p>
+                  </div>
+                  <div>
+                    <label class="text-sm font-medium text-gray-600">نوع التعميم:</label>
+                    <p class="font-semibold">مورد داخلي</p>
+                  </div>
+                  <div>
+                    <label class="text-sm font-medium text-gray-600">الأولوية:</label>
+                    <div></div>
+                  </div>
+                </div>
+                <div class="space-y-4">
+                  <div>
+                    <label class="text-sm font-medium text-gray-600">جهة التواصل المفضلة:</label>
+                    <p class="font-semibold"></p>
+                  </div>
+                  <div>
+                    <label class="text-sm font-medium text-gray-600">الحالة:</label>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <span class="icon-placeholder">Separator</span>
+
+            <!-- Property Information -->
+            <div>
+              <h2 class="text-xl font-semibold mb-4 text-gray-800">بيانات العقار</h2>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="space-y-4">
+                  <div>
+                    <label class="text-sm font-medium text-gray-600">اسم العقار:</label>
+                    <p class="font-semibold"></p>
+                  </div>
+                  <div>
+                    <label class="text-sm font-medium text-gray-600">المدينة:</label>
+                    <p class="font-semibold">القاهرة</p>
+                  </div>
+                </div>
+                <div class="space-y-4">
+                  <div>
+                    <label class="text-sm font-medium text-gray-600">الدولة:</label>
+                    <p class="font-semibold">جمهورية مصر العربية</p>
+                  </div>
+                  <div>
+                    <label class="text-sm font-medium text-gray-600">الموقع الجغرافي:</label>
+                    <div class="flex items-center gap-2">
+                      <span class="icon-placeholder">Map</span>
+                      <span class="text-blue-600 cursor-pointer">عرض على الخريطة</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <span class="icon-placeholder">Separator</span>
+
+            <!-- Invoice Summary -->
+            <div>
+              <h2 class="text-xl font-semibold mb-4 text-gray-800">ملخص الفاتورة</h2>
+              <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="text-center p-4 bg-gray-50 rounded-lg">
+                  <p class="text-sm text-gray-600">رسوم المعاينة:</p>
+                  <p class="font-bold text-lg">EGP 0.00</p>
+                </div>
+                <div class="text-center p-4 bg-gray-50 rounded-lg">
+                  <p class="text-sm text-gray-600">سعر الخدمة:</p>
+                  <p class="font-bold text-lg">EGP 329.00</p>
+                </div>
+                <div class="text-center p-4 bg-gray-50 rounded-lg">
+                  <p class="text-sm text-gray-600">الخصم:</p>
+                  <p class="font-bold text-lg">EGP 0.00</p>
+                </div>
+                <div class="text-center p-4 bg-gray-50 rounded-lg">
+                  <p class="text-sm text-gray-600">الضريبة (15%):</p>
+                  <p class="font-bold text-lg">EGP 46.06</p>
+                </div>
+                <div class="text-center p-4 bg-green-50 rounded-lg">
+                  <p class="text-sm text-gray-600">إجمالي قطع الغيار:</p>
+                  <p class="font-bold text-lg text-green-600">EGP 0.00</p>
+                </div>
+                <div class="text-center p-4 bg-blue-50 rounded-lg">
+                  <p class="text-sm text-gray-600">الإجمالي النهائي:</p>
+                  <p class="font-bold text-lg text-blue-600">EGP 375.06</p>
+                </div>
+                <div class="text-center p-4 bg-red-50 rounded-lg">
+                  <p class="text-sm text-gray-600">المبلغ بعد الاستلام:</p>
+                  <p class="font-bold text-lg text-red-600">EGP 0.00</p>
+                </div>
+                <div class="text-center p-4 bg-yellow-50 rounded-lg">
+                  <p class="text-sm text-gray-600 whitespace-nowrap">موافقة على السعر:</p>
+                  <div class="component badge">غير موافق X</div>
+                </div>
+              </div>
+              <div class="mt-4 p-4 bg-gray-50 rounded-lg">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
+                  <div><span class="font-medium">الرجوع بعد الاستلام:</span> EGP 0.00</div>
+                  <div><span class="font-medium">الضمان:</span> EGP 0.00</div>
+                  <div><span class="font-medium">المبلغ:</span> EGP 375.06</div>
+                </div>
+              </div>
+            </div>
+
+            <span class="icon-placeholder">Separator</span>
+
+            <!-- Status Log -->
+            <div>
+              <h2 class="text-xl font-semibold mb-4 text-gray-800">سجل الحالات</h2>
+              <div class="overflow-x-auto">
+                <div class="component-placeholder" data-component="Table">
+                  <div class="component-placeholder" data-component="TableHeader">
+                    <div class="component-placeholder" data-component="TableRow">
+                      <div class="component-placeholder" data-component="TableHead">تاريخ التسجيل</div>
+                      <div class="component-placeholder" data-component="TableHead">بواسطة</div>
+                      <div class="component-placeholder" data-component="TableHead">المنطقة</div>
+                      <div class="component-placeholder" data-component="TableHead">الحالة</div>
+                    </div>
+                  </div>
+                  <div class="component-placeholder" data-component="TableBody">
+                    <div class="component-placeholder" data-component="TableRow">
+                      <div class="component-placeholder" data-component="TableCell">04:45 2025-08-03</div>
+                      <div class="component-placeholder" data-component="TableCell">Mohamed Azab</div>
+                      <div class="component-placeholder" data-component="TableCell">test requste</div>
+                      <div class="component-placeholder" data-component="TableCell">تم التعيين</div>
+                    </div>
+                    <div class="component-placeholder" data-component="TableRow">
+                      <div class="component-placeholder" data-component="TableCell">04:45 2025-08-03</div>
+                      <div class="component-placeholder" data-component="TableCell">Mohamed Azab</div>
+                      <div class="component-placeholder" data-component="TableCell">test requste</div>
+                      <div class="component-placeholder" data-component="TableCell">في انتظار الموافقة</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <span class="icon-placeholder">Separator</span>
+
+            <!-- Financial Transactions -->
+            <div>
+              <h2 class="text-xl font-semibold mb-4 text-gray-800">سجل المعاملات المالية</h2>
+              <div class="overflow-x-auto">
+                <div class="component-placeholder" data-component="Table">
+                  <div class="component-placeholder" data-component="TableHeader">
+                    <div class="component-placeholder" data-component="TableRow">
+                      <div class="component-placeholder" data-component="TableHead">تاريخ المعاملة</div>
+                      <div class="component-placeholder" data-component="TableHead">بواسطة</div>
+                      <div class="component-placeholder" data-component="TableHead">الملاحظة</div>
+                      <div class="component-placeholder" data-component="TableHead">العملة</div>
+                      <div class="component-placeholder" data-component="TableHead">المبلغ</div>
+                      <div class="component-placeholder" data-component="TableHead">القيمة</div>
+                    </div>
+                  </div>
+                  <div class="component-placeholder" data-component="TableBody">
+                    <div class="component-placeholder" data-component="TableRow">
+                      <div class="component-placeholder" data-component="TableCell">04:45 2025-08-03</div>
+                      <div class="component-placeholder" data-component="TableCell">Mohamed Azab</div>
+                      <div class="component-placeholder" data-component="TableCell">-</div>
+                      <div class="component-placeholder" data-component="TableCell">EGP</div>
+                      <div class="component-placeholder" data-component="TableCell">329.00</div>
+                      <div class="component-placeholder" data-component="TableCell">-</div>
+                    </div>
+                    <div class="component-placeholder" data-component="TableRow">
+                      <div class="component-placeholder" data-component="TableCell">04:45 2025-08-03</div>
+                      <div class="component-placeholder" data-component="TableCell">Mohamed Azab</div>
+                      <div class="component-placeholder" data-component="TableCell">-</div>
+                      <div class="component-placeholder" data-component="TableCell">EGP</div>
+                      <div class="component-placeholder" data-component="TableCell">46.06</div>
+                      <div class="component-placeholder" data-component="TableCell">-</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <span class="icon-placeholder">Separator</span>
+
+            <!-- Materials -->
+            <div>
+              <h2 class="text-xl font-semibold mb-4 text-gray-800">المواد</h2>
+              <div class="text-center py-8 text-gray-500">
+                <p>لم يتم إضافة مواد بعد</p>
+              </div>
+            </div>
+
+            <span class="icon-placeholder">Separator</span>
+
+            <!-- Attachments -->
+            <div>
+              <h2 class="text-xl font-semibold mb-4 text-gray-800">المرفقات</h2>
+              <div class="overflow-x-auto">
+                <div class="component-placeholder" data-component="Table">
+                  <div class="component-placeholder" data-component="TableHeader">
+                    <div class="component-placeholder" data-component="TableRow">
+                      <div class="component-placeholder" data-component="TableHead">الإجراءات</div>
+                      <div class="component-placeholder" data-component="TableHead">بواسطة</div>
+                      <div class="component-placeholder" data-component="TableHead">تاريخ الرفع</div>
+                      <div class="component-placeholder" data-component="TableHead">الحجم</div>
+                      <div class="component-placeholder" data-component="TableHead">المحتوى</div>
+                      <div class="component-placeholder" data-component="TableHead">النوع</div>
+                      <div class="component-placeholder" data-component="TableHead">إسم الملف</div>
+                      <div class="component-placeholder" data-component="TableHead">المعاينة</div>
+                    </div>
+                  </div>
+                  <div class="component-placeholder" data-component="TableBody">
+                    <div class="component-placeholder" data-component="TableRow">
+                      <div class="component-placeholder" data-component="TableCell">
+                        <div class="flex gap-2">
+                          <div class="component button">
+                            <span class="icon-placeholder">Eye</span>
+                          </div>
+                          <div class="component button">
+                            <span class="icon-placeholder">Download</span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="component-placeholder" data-component="TableCell">Mohamed Azab</div>
+                      <div class="component-placeholder" data-component="TableCell">04:45 2025-08-03</div>
+                      <div class="component-placeholder" data-component="TableCell">KB 311.3</div>
+                      <div class="component-placeholder" data-component="TableCell">
+                        <div class="component badge">
+                          طلب الصيانة
+                        </div>
+                      </div>
+                      <div class="component-placeholder" data-component="TableCell">image/png</div>
+                      <div class="component-placeholder" data-component="TableCell">Group 818</div>
+                      <div class="component-placeholder" data-component="TableCell">
+                        <div class="w-10 h-10 bg-orange-100 rounded border flex items-center justify-center">
+                          📄
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="source-note">تم التحويل من الملف الأصلي: <code>MaintenanceRequestDetails.tsx</code>. هذه نسخة HTML ثابتة؛ الأجزاء المعتمدة على React/JavaScript أو مكوّنات خارج الحزمة ظهرت كعناصر Placeholder.</div>
+    </article>
+  </div>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>تقارير الصيانة</title>
+  <link rel="stylesheet" href="assets/static-conversion.css">
+</head>
+<body>
+  <header class="azab-topbar">
+    <strong>تقارير الصيانة</strong> · <a href="index.html">فهرس الصفحات</a>
+  </header>
+  <div class="azab-shell">
+    <article class="azab-card converted-page">
+      <div class="component-placeholder" data-component="DashboardLayout">
+      <div class="space-y-6">
+        <!-- Header -->
+        <div class="bg-white rounded-lg border border-gray-200">
+          <div class="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-6 rounded-t-lg">
+            <h1 class="text-2xl font-bold">تقارير الصيانة</h1>
+            <p class="text-blue-100 mt-1">طلبات الصيانة والإحصائيات › التقارير</p>
+          </div>
+
+          <div class="p-6">
+            <!-- Filters -->
+            <div class="flex flex-wrap items-center gap-4 mb-6 p-4 bg-gray-50 rounded-lg">
+              <div class="flex items-center gap-2">
+                <label class="text-sm font-medium">من تاريخ:</label>
+                <div class="relative">
+                  <div class="component-placeholder">Input</div>
+                  <span class="icon-placeholder">Calendar</span>
+                </div>
+              </div>
+              <div class="flex items-center gap-2">
+                <label class="text-sm font-medium">إلى تاريخ:</label>
+                <div class="relative">
+                  <div class="component-placeholder">Input</div>
+                  <span class="icon-placeholder">Calendar</span>
+                </div>
+              </div>
+              <div class="component button">
+                <span class="icon-placeholder">RotateCcw</span>
+                إعادة تعيين
+              </div>
+              <div class="component button">
+                <span class="icon-placeholder">Search</span>
+                تصفية
+              </div>
+              <span class="text-sm text-gray-600">August 2025 - August 2025</span>
+            </div>
+
+            <!-- Stats Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+              <div class="component card">
+                <div class="component cardcontent">
+                  <div class="text-3xl font-bold text-blue-600 mb-2"><span data-js-var="stats.totalRequests"></span></div>
+                  <div class="text-sm text-gray-600">إجمالي الطلبات</div>
+                </div>
+              </div>
+              <div class="component card">
+                <div class="component cardcontent">
+                  <div class="text-3xl font-bold text-orange-600 mb-2"><span data-js-var="stats.pendingRequests"></span></div>
+                  <div class="text-sm text-gray-600">الطلبات المعلقة</div>
+                </div>
+              </div>
+              <div class="component card">
+                <div class="component cardcontent">
+                  <div class="text-3xl font-bold text-blue-800 mb-2"><span data-js-var="stats.inProgressRequests"></span></div>
+                  <div class="text-sm text-gray-600">الطلبات قيد التنفيذ</div>
+                </div>
+              </div>
+              <div class="component card">
+                <div class="component cardcontent">
+                  <div class="text-3xl font-bold text-green-600 mb-2"><span data-js-var="stats.completedRequests"></span></div>
+                  <div class="text-sm text-gray-600">الطلبات المكتملة</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Charts Section -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+              <!-- Pie Chart -->
+              <div class="component card">
+                <div class="component cardheader">
+                  <div class="component cardtitle">حالة الطلبات</div>
+                </div>
+                <div class="component cardcontent">
+                  <div class="h-80">
+                    <div class="component-placeholder" data-component="ResponsiveContainer">
+                      <div class="component-placeholder" data-component="PieChart">
+                        <div class="component-placeholder" data-component="Pie"></span>
+                          cx="50%"
+                          cy="50%"
+                          innerRadius="60"
+                          outerRadius="120"
+                          paddingAngle="5"
+                          dataKey="value"
+                        >
+                          <div class="dynamic-placeholder">قائمة ديناميكية من المصدر: <strong>pieData.map(...)</strong> — لم يتم تنفيذ JavaScript داخل التحويل الثابت.</div>
+                        </div>
+                        <div class="component-placeholder">Tooltip</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex justify-center gap-6 mt-4">
+                    <div class="flex items-center gap-2">
+                      <div class="w-4 h-4 bg-orange-500 rounded"></div>
+                      <span class="text-sm">قيد التنفيذ</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <div class="w-4 h-4 bg-blue-800 rounded"></div>
+                      <span class="text-sm">قيد التعديل</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                      <div class="w-4 h-4 bg-green-500 rounded"></div>
+                      <span class="text-sm">مكتملة</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Line Chart -->
+              <div class="component card">
+                <div class="component cardheader">
+                  <div class="component cardtitle">إحصائيات طلبات الصيانة</div>
+                </div>
+                <div class="component cardcontent">
+                  <div class="h-80">
+                    <div class="component-placeholder" data-component="ResponsiveContainer">
+                      <div class="component-placeholder" data-component="LineChart"></span>>
+                        <span class="icon-placeholder">CartesianGrid</span>
+                        <span class="icon-placeholder">XAxis</span>
+                        <span class="icon-placeholder">YAxis</span>
+                        <div class="component-placeholder">Tooltip</div>
+                        <span class="icon-placeholder">Line</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex justify-center mt-4">
+                    <div class="flex items-center gap-2">
+                      <div class="w-4 h-4 bg-blue-800 rounded"></div>
+                      <span class="text-sm">طلبات صيانة</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Recent Requests Table -->
+            <div class="component card">
+              <div class="component cardheader">
+                <div class="component cardtitle">أحدث طلبات الصيانة</div>
+              </div>
+              <div class="component cardcontent">
+                <div class="overflow-x-auto">
+                  <div class="component-placeholder" data-component="Table">
+                    <div class="component-placeholder" data-component="TableHeader">
+                      <div class="component-placeholder" data-component="TableRow">
+                        <div class="component-placeholder" data-component="TableHead">الإجراءات</div>
+                        <div class="component-placeholder" data-component="TableHead">تاريخ الطلب</div>
+                        <div class="component-placeholder" data-component="TableHead">الحالة</div>
+                        <div class="component-placeholder" data-component="TableHead">الخدمة</div>
+                        <div class="component-placeholder" data-component="TableHead">العقار</div>
+                        <div class="component-placeholder" data-component="TableHead">رقم الطلب</div>
+                      </div>
+                    </div>
+                    <div class="component-placeholder" data-component="TableBody">
+                      <div class="dynamic-placeholder">قائمة ديناميكية من المصدر: <strong>recentRequests.map(...)</strong> — لم يتم تنفيذ JavaScript داخل التحويل الثابت.</div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<section class="azab-card"><h2>بيانات ثابتة مستخرجة: pieData</h2><ul><li>قيد التنفيذ</li><li>قيد التعديل</li><li>مكتملة</li></ul></section>
+<section class="azab-card"><h2>بيانات ثابتة مستخرجة: lineData</h2><ul><li>March</li><li>April</li><li>May</li><li>June</li><li>July</li><li>August</li></ul></section>
+      <div class="source-note">تم التحويل من الملف الأصلي: <code>MaintenanceReports.tsx</code>. هذه نسخة HTML ثابتة؛ الأجزاء المعتمدة على React/JavaScript أو مكوّنات خارج الحزمة ظهرت كعناصر Placeholder.</div>
+    </article>
+  </div>
+</body>
+</html>

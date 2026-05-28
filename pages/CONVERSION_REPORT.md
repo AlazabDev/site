@@ -1,0 +1,59 @@
+# TSX to HTML conversion report
+
+- Source zip: pages(1).zip
+- Converted pages: 53
+- Method: static HTML approximation preserving visible JSX structure where possible. React runtime logic/components are represented as placeholders.
+
+- AboutPage.html — من نحن
+- AdminContentManager.html — إدارة المحتوى
+- AdminDashboard.html — Admin Dashboard
+- AuthPage.html — Auth
+- CEOPage.html — C E O
+- ChatbotPage.html — عزبوت - المساعد الذكي | شركة العزب للمقاولات
+- ChatbotTrainingPage.html — تدريب عزبوت
+- ContactPage.html — اتصل بنا
+- CostCalculator.html — حاسبة التكلفة الذكية | العزب للمقاولات
+- DashboardPage.html — Dashboard
+- FacebookPage.html — العزب | تابعنا على وسائل التواصل الاجتماعي
+- FurnitureGallery.html — معرض الأثاث والتصميم
+- Index.html — شركة العزب للمقاولات العامة - خدمات إنشاء وصيانة متميزة
+- InternalWebhookPage.html — مراقبة الويب هوك
+- MaintenanceList.html — قائمة طلبات الصيانة
+- MaintenanceReports.html — تقارير الصيانة
+- MaintenanceRequest.html — نظام طلبات الصيانة
+- MaintenanceRequestDetails.html — نظام إدارة طلبات الصيانة
+- MaintenanceTracking.html — متابعة طلب الصيانة
+- MetaAccountsPage.html — إدارة حسابات Meta
+- NotFound.html — 404
+- Portfolio.html — معرض الأعمال
+- ProfilePage.html — Profile
+- ProjectDetails.html — تفاصيل المشروع
+- ProjectManagement.html — إدارة المشاريع
+- ProjectPortfolioDetails.html — تفاصيل المشروع
+- ProjectStoryPage.html — Project Story
+- ProjectsPage.html — مشاريعنا
+- ProjectsShowcase.html — مشاريعنا – حيث يلتقي الإبداع مع الجودة
+- QuotationManagement.html — إدارة عروض الأسعار | شركة العزب
+- ResetPasswordPage.html — Reset Password
+- ServicesPage.html — خدماتنا
+- SettingsPage.html — Settings
+- SitemapPage.html — خريطة الموقع | العزب للمقاولات
+- WebhookMonitorPage.html — مراقبة الويب هوك
+- WhatsAppManagementPage.html — إدارة واتساب للأعمال
+- WhatsAppSetupPage.html — تواصل معنا عبر واتساب
+- legal/AcceptableUsePolicyPage.html — سياسة الاستخدام المقبول | العزب للمقاولات
+- legal/CookiePolicyPage.html — سياسة ملفات تعريف الارتباط | العزب للمقاولات
+- legal/DataDeletionPage.html — حذف البيانات | العزب للمقاولات
+- legal/DisclaimerPage.html — إخلاء المسؤولية | العزب للمقاولات
+- legal/LegalContactPage.html — الاتصال القانوني | العزب للمقاولات
+- legal/PrivacyPolicyPage.html — سياسة الخصوصية | العزب للمقاولات
+- legal/RefundPolicyPage.html — سياسة الاسترداد والإلغاء | العزب للمقاولات
+- legal/SecurityDisclosurePage.html — الأمان والإفصاح المسؤول | العزب للمقاولات
+- legal/TermsOfServicePage.html — الشروط والأحكام | العزب للمقاولات
+- services/BrandIdentityPage.html — Brand Identity
+- services/GeneralSuppliesPage.html — توريدات لبن العصفور
+- services/LabanAlasfourPage.html — Laban Alasfour
+- services/LuxuryCleaningPage.html — تنظيف احترافي للفلل والمحلات
+- services/LuxuryFinishingPage.html — Luxury Finishing
+- services/MaintenanceRenovationPage.html — صيانة وتجديد الفروع التجارية والسكنية
+- services/UberFixPage.html — UberFix

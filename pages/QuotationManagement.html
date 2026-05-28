@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>إدارة عروض الأسعار | شركة العزب</title>
+  <link rel="stylesheet" href="assets/static-conversion.css">
+</head>
+<body>
+  <header class="azab-topbar">
+    <strong>إدارة عروض الأسعار | شركة العزب</strong> · <a href="index.html">فهرس الصفحات</a>
+  </header>
+  <div class="azab-shell">
+    <article class="azab-card converted-page">
+      <div>
+      
+      <div class="min-h-screen bg-background flex flex-col" dir="rtl">
+        <div class="component-placeholder">مكوّن مستورد: <strong>Header</strong></div>
+        <main class="flex-1 pt-20">
+          <div class="container mx-auto px-4 py-8 max-w-7xl">
+            <!-- Header -->
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-8">
+              <div>
+                <h1 class="text-2xl md:text-3xl font-bold text-foreground flex items-center gap-3">
+                  <span class="icon-placeholder">Calculator</span>
+                  إدارة عروض الأسعار
+                  
+                </h1>
+                <p class="text-muted-foreground mt-1">إنشاء وإدارة والموافقة على عروض الأسعار</p>
+              </div>
+              <div class="component button">
+                <span class="icon-placeholder">Plus</span> إنشاء عرض سعر جديد
+              </div>
+            </div>
+
+            <!-- Stats -->
+            <div class="grid grid-cols-2 md:grid-cols-7 gap-3 mb-6">
+              {Object.entries(statusConfig).map(([key, cfg]) => )}
+            </div>
+
+            <!-- Search -->
+            <div class="flex gap-3 mb-6">
+              <div class="relative flex-1">
+                <span class="icon-placeholder">Search</span>
+                <div class="component-placeholder">Input</div>
+              </div>
+            </div>
+
+            <!-- Quotations List -->
+            
+
+            <!-- Approval Modal -->
+            <div class="component-placeholder" data-component="AnimatePresence">
+              {approvalModal && (
+                <motion.div
+                  initial={} animate={} exit={}
+                  class="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4"}
+                >
+                  <motion.div
+                    initial={} animate={} exit={}
+                    class="bg-background rounded-2xl w-full max-w-md shadow-2xl overflow-hidden" dir="rtl"
+                  >
+                    <div class="dynamic-class">
+                      <h2 class="text-xl font-bold flex items-center gap-2">
+                        
+                      </h2>
+                      <p class="text-sm opacity-80 mt-1"><span data-js-var="approvalModal.quotation.quotation_number"></span> - <span data-js-var="approvalModal.quotation.client_name"></span></p>
+                    </div>
+
+                    <div class="p-6 space-y-4">
+                      <div class="bg-muted rounded-xl p-4">
+                        <div class="grid grid-cols-2 gap-2 text-sm">
+                          <div><span class="text-muted-foreground">العميل:</span> <strong><span data-js-var="approvalModal.quotation.client_name"></span></strong></div>
+                          <div><span class="text-muted-foreground">الإجمالي:</span> <strong class="text-construction-primary"> ج.م</strong></div>
+                          <div><span class="text-muted-foreground">النظام:</span> </div>
+                          
+                        </div>
+                      </div>
+
+                      
+
+                      <div class="bg-blue-50 rounded-lg p-3 text-xs text-blue-700 flex items-start gap-2">
+                        <span class="icon-placeholder">Bell</span>
+                        <span>سيتم إرسال إشعار واتساب تلقائي للعميل والإدارة وفريق المبيعات</span>
+                      </div>
+                    </div>
+
+                    <div class="p-4 border-t flex justify-between">
+                      <div class="component button">إلغاء</div>
+                      <div class="component button">
+                        
+                      </div>
+                    </div>
+                  </motion.div>
+                </motion.div>
+              )}
+            </div>
+
+            <!-- Create/Edit Form Modal -->
+            <div class="component-placeholder" data-component="AnimatePresence">
+              {showForm && (
+                <motion.div
+                  initial={} animate={} exit={}
+                  class="fixed inset-0 bg-black/50 z-50 flex items-start justify-center overflow-y-auto p-4"}
+                >
+                  <motion.div
+                    initial={} animate={} exit={}
+                    class="bg-background rounded-2xl w-full max-w-3xl my-8 overflow-hidden shadow-2xl" dir="rtl"
+                  >
+                    <div class="bg-gradient-to-l from-construction-primary to-construction-dark p-5 text-white">
+                      <h2 class="text-xl font-bold"></h2>
+                    </div>
+
+                    <div class="p-6 space-y-6 max-h-[70vh] overflow-y-auto">
+                      <!-- Client Info -->
+                      <div>
+                        <h3 class="font-bold text-sm mb-3 flex items-center gap-2">
+                          <span class="icon-placeholder">Building2</span> بيانات العميل
+                        </h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                          <div class="component-placeholder">Input</div>
+                          <div class="component-placeholder">Input</div>
+                          <div class="component-placeholder">Input</div>
+                          <select))} class="border rounded-md px-3 py-2 text-sm bg-background">
+                            <option>سكني</option>
+                            <option>تجاري</option>
+                          </select>
+                          <div class="component-placeholder">Input</div>
+                          <div class="component-placeholder">Input</div>
+                        </div>
+                      </div>
+
+                      <!-- Pricing System -->
+                      <div>
+                        <h3 class="font-bold text-sm mb-3 flex items-center gap-2">
+                          <span class="icon-placeholder">Calculator</span> نظام التسعير
+                        </h3>
+                        <div class="grid grid-cols-3 gap-2">
+                          <div class="dynamic-placeholder">قائمة ديناميكية من المصدر: <strong>inline-array.map(...)</strong> — لم يتم تنفيذ JavaScript داخل التحويل الثابت.</div>
+                        </div>
+                      </div>
+
+                      <!-- System-specific fields -->
+                      
+
+                       />
+                          </div>
+                          <div>
+                            <label class="text-xs font-bold mb-1 block">نسبة التنفيذ (%)</label>
+                            <div class="component-placeholder">Input</div>
+                          </div>
+                        </div>
+                      )}
+
+                      
+                                class="text-xs border rounded-md px-2 py-1.5 bg-background"
+                              >
+                                <option>+ إضافة بند من القائمة</option>
+                                <div class="dynamic-placeholder">قائمة ديناميكية من المصدر: <strong>categories.map(...)</strong> — لم يتم تنفيذ JavaScript داخل التحويل الثابت.</div>
+                              </select>
+                              <div class="component button">
+                                <span class="icon-placeholder">Plus</span> بند مخصص
+                              </div>
+                            </div>
+                          </div>
+
+                          
+                        </div>
+                      )}
+
+                      <!-- Discount &amp; Tax -->
+                      <div class="grid grid-cols-3 gap-3">
+                        <div>
+                          <label class="text-xs font-bold mb-1 block">نسبة الخصم (%)</label>
+                          <div class="component-placeholder">Input</div>
+                        </div>
+                        <div>
+                          <label class="text-xs font-bold mb-1 block">الضريبة (%)</label>
+                          <div class="component-placeholder">Input</div>
+                        </div>
+                        <div>
+                          <label class="text-xs font-bold mb-1 block">صالح لمدة (يوم)</label>
+                          <div class="component-placeholder">Input</div>
+                        </div>
+                      </div>
+
+                      <!-- Notes -->
+                      <div>
+                        <label class="text-xs font-bold mb-1 block">ملاحظات</label>
+                        <textarea
+                          class="w-full border rounded-md p-3 text-sm bg-background resize-none"
+                          rows="2"))}
+                          placeholder="ملاحظات إضافية..."
+                        ></textarea>
+                      </div>
+
+                      <!-- Totals Preview -->
+                      <div class="bg-gradient-to-l from-construction-primary/5 to-construction-accent/5 rounded-xl p-4 border border-construction-accent/20">
+                        <div class="space-y-2 text-sm">
+                          <div class="flex justify-between"><span>الإجمالي الفرعي</span><span class="font-bold"> ج.م</span></div>
+                          {totals.discAmt > 0 && <div class="flex justify-between text-destructive"><span>الخصم (<span data-js-var="formData.discount_percentage"></span>%)</span><span>- ج.م</span></div>}
+                          {totals.taxAmt > 0 && <div class="flex justify-between"><span>الضريبة (<span data-js-var="formData.tax_percentage"></span>%)</span><span> ج.م</span></div>}
+                          <div class="flex justify-between text-lg font-bold pt-2 border-t border-construction-accent/20">
+                            <span>الإجمالي النهائي</span>
+                            <span class="text-construction-primary"> ج.م</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="p-4 border-t flex justify-between">
+                      <div class="component button">إلغاء</div>
+                      <div class="flex gap-2">
+                        >
+                            <span class="icon-placeholder">ShieldCheck</span> حفظ وطلب موافقة
+                          </div>
+                        )}
+                        <div class="component button">
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </motion.div>
+                </motion.div>
+              )}
+            </div>
+          </div>
+        </main>
+        <div class="component-placeholder">مكوّن مستورد: <strong>Footer</strong></div>
+      </div>
+    </div>
+      <div class="source-note">تم التحويل من الملف الأصلي: <code>QuotationManagement.tsx</code>. هذه نسخة HTML ثابتة؛ الأجزاء المعتمدة على React/JavaScript أو مكوّنات خارج الحزمة ظهرت كعناصر Placeholder.</div>
+    </article>
+  </div>
+</body>
+</html>

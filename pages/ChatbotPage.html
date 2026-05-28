@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>عزبوت - المساعد الذكي | شركة العزب للمقاولات</title>
+  <link rel="stylesheet" href="assets/static-conversion.css">
+</head>
+<body>
+  <header class="azab-topbar">
+    <strong>عزبوت - المساعد الذكي | شركة العزب للمقاولات</strong> · <a href="index.html">فهرس الصفحات</a>
+  </header>
+  <div class="azab-shell">
+    <article class="azab-card converted-page">
+      <div>
+      
+
+      <div class="min-h-screen bg-background flex flex-col" dir="rtl">
+        <div class="component-placeholder">مكوّن مستورد: <strong>Header</strong></div>
+
+        <main class="flex-1 pt-16 md:pt-20 flex flex-col">
+          <!-- Hero -->
+          <div class="bg-gradient-to-br from-construction-primary to-construction-dark text-white py-6 px-4">
+            <div class="container mx-auto max-w-3xl flex items-center gap-3">
+              <div class="w-12 h-12 rounded-full bg-construction-accent flex items-center justify-center flex-shrink-0">
+                <span class="icon-placeholder">Bot</span>
+              </div>
+              <div>
+                <h1 class="text-xl md:text-2xl font-bold">عزبوت (AzaBot)</h1>
+                <p class="text-white/70 text-sm">المساعد الذكي لشركة العزب - اسألني أي شيء عن خدماتنا ومشاريعنا</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chat Area -->
+          <div class="flex-1 overflow-y-auto">
+            <div class="container mx-auto max-w-3xl px-4 py-6 space-y-4">
+              {messages.length === 0 && (
+                <motion.div
+                  initial={}
+                  animate={}
+                  class="text-center py-12"
+                >
+                  <div class="w-20 h-20 rounded-full bg-construction-accent/10 flex items-center justify-center mx-auto mb-4">
+                    <span class="icon-placeholder">MessageSquare</span>
+                  </div>
+                  <h2 class="text-xl font-bold text-foreground mb-2">مرحباً! أنا عزبوت 👋</h2>
+                  <p class="text-muted-foreground mb-6">كيف يمكنني مساعدتك اليوم؟</p>
+                  <div class="flex flex-wrap gap-2 justify-center max-w-lg mx-auto">
+                    <div class="dynamic-placeholder">قائمة ديناميكية من المصدر: <strong>inline-array.map(...)</strong> — لم يتم تنفيذ JavaScript داخل التحويل الثابت.</div>
+                  </div>
+                </motion.div>
+              )}
+
+              <div class="component-placeholder" data-component="AnimatePresence">
+                <div class="dynamic-placeholder">قائمة ديناميكية من المصدر: <strong>messages.map(...)</strong> — لم يتم تنفيذ JavaScript داخل التحويل الثابت.</div>
+              </div>
+
+              {isLoading && messages[messages.length - 1]?.role !== 'assistant' && (
+                <motion.div initial={} animate={} class="flex gap-3">
+                  <div class="w-8 h-8 rounded-full bg-construction-accent flex items-center justify-center">
+                    <span class="icon-placeholder">Bot</span>
+                  </div>
+                  <div class="bg-muted rounded-2xl rounded-bl-sm px-4 py-3">
+                    <div class="flex gap-1">
+                      <span class="w-2 h-2 bg-muted-foreground/40 rounded-full animate-bounce" style={} ></span>
+                      <span class="w-2 h-2 bg-muted-foreground/40 rounded-full animate-bounce" style={} ></span>
+                      <span class="w-2 h-2 bg-muted-foreground/40 rounded-full animate-bounce" style={} ></span>
+                    </div>
+                  </div>
+                </motion.div>
+              )}
+
+              <div ref=<span data-js-var="messagesEndRef"></span> />
+            </div>
+          </div>
+
+          <!-- Input Area -->
+          <div class="border-t bg-background/95 backdrop-blur-md">
+            <div class="container mx-auto max-w-3xl px-4 py-3">
+              <div class="flex gap-2 items-end">
+                
+                <div class="component textarea"></span>
+                  onKeyDown=<span data-js-var="handleKeyDown"></span>
+                  placeholder="اكتب رسالتك هنا..."
+                  class="resize-none min-h-[44px] max-h-32 rounded-xl"
+                  rows="1"
+                />
+                <div class="component button">
+                  
+                </div>
+              </div>
+              <p class="text-[10px] text-muted-foreground text-center mt-2">
+                عزبوت مدعوم بالذكاء الاصطناعي وقد يخطئ أحياناً. تحقق من المعلومات المهمة.
+              </p>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+      <div class="source-note">تم التحويل من الملف الأصلي: <code>ChatbotPage.tsx</code>. هذه نسخة HTML ثابتة؛ الأجزاء المعتمدة على React/JavaScript أو مكوّنات خارج الحزمة ظهرت كعناصر Placeholder.</div>
+    </article>
+  </div>
+</body>
+</html>

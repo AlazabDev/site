@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="assets/static-conversion.css">
+</head>
+<body>
+  <header class="azab-topbar">
+    <strong>Admin Dashboard</strong> · <a href="index.html">فهرس الصفحات</a>
+  </header>
+  <div class="azab-shell">
+    <article class="azab-card converted-page">
+      <div class="component-placeholder" data-component="AdminDashboardLayout">
+      <div class="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
+        <div class="container mx-auto p-6 space-y-8">
+          <!-- Header Section -->
+          <div class="azab-card animate-fade-in-up">
+            <span class="icon-placeholder">AdminWelcomeCard</span>
+          </div>
+
+          <!-- Stats Grid -->
+          <div class="animate-fade-in-up" style={}>
+            <div class="component-placeholder" data-component="AdminStatsGrid"></span>
+              pendingMaintenance=<span data-js-var="data.pendingMaintenance"></span>
+              completedTasks=<span data-js-var="data.completedTasks"></span>
+              activeProjects=<span data-js-var="data.activeProjects"></span>
+              isLoading=<span data-js-var="isLoading"></span>
+            />
+          </div>
+
+          <!-- Main Content Grid -->
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <!-- Left Column - Recent Activity -->
+            <div class="lg:col-span-2 space-y-6 animate-fade-in-up" style={}>
+              <div class="component-placeholder" data-component="AdminRecentActivity"></span>
+                isLoading=<span data-js-var="isLoading"></span>
+              />
+              <span class="icon-placeholder">AdminSystemOverview</span>
+            </div>
+
+            <!-- Right Column - Quick Actions -->
+            <div class="space-y-6 animate-fade-in-up" style={}>
+              <span class="icon-placeholder">AdminQuickActions</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="source-note">تم التحويل من الملف الأصلي: <code>AdminDashboard.tsx</code>. هذه نسخة HTML ثابتة؛ الأجزاء المعتمدة على React/JavaScript أو مكوّنات خارج الحزمة ظهرت كعناصر Placeholder.</div>
+    </article>
+  </div>
+</body>
+</html>

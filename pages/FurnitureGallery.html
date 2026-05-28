@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>معرض الأثاث والتصميم</title>
+  <link rel="stylesheet" href="assets/static-conversion.css">
+</head>
+<body>
+  <header class="azab-topbar">
+    <strong>معرض الأثاث والتصميم</strong> · <a href="index.html">فهرس الصفحات</a>
+  </header>
+  <div class="azab-shell">
+    <article class="azab-card converted-page">
+      <div class="min-h-screen bg-background" dir="rtl">
+      <div class="component-placeholder">مكوّن مستورد: <strong>Header</strong></div>
+
+      <!-- Hero -->
+      <section class="pt-24 pb-16 bg-gradient-to-br from-construction-primary via-construction-dark to-construction-primary text-white relative overflow-hidden">
+        <div class="absolute inset-0">
+          <div class="absolute inset-0 bg-[radial-gradient(circle_at_30%_40%,rgba(251,191,36,0.15)_0%,transparent_60%)]" ></div>
+        </div>
+        <div class="container mx-auto px-4 relative z-10">
+          <motion.div initial={} animate={} transition={}>
+            <div class="component badge">
+              +<span data-js-var="furnitureImages.length"></span> قطعة
+            </div>
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">معرض الأثاث والتصميم</h1>
+            <p class="text-lg md:text-xl text-white/70 max-w-2xl leading-relaxed">
+              مجموعة حصرية من أرقى قطع الأثاث والتصاميم الداخلية والمدافئ الفاخرة
+            </p>
+          </motion.div>
+
+          <motion.div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-10 max-w-3xl"
+            initial={} animate={} transition={}>
+            >
+                <div class="text-2xl font-bold text-construction-accent"><span data-js-var="cat.count"></span></div>
+                <div class="text-xs text-white/50"><span data-js-var="cat.name"></span></div>
+              </div>
+            ))}
+          </motion.div>
+        </div>
+      </section>
+
+      <!-- Filters -->
+      <div class="sticky top-16 md:top-20 z-40 bg-background/95 backdrop-blur-md shadow-sm border-b">
+        <div class="container mx-auto px-4 py-2 md:py-3">
+          <div class="flex flex-col gap-3">
+            <div class="flex flex-col md:flex-row gap-3 items-center justify-between">
+              <div class="relative w-full md:w-80">
+                <span class="icon-placeholder">Search</span>
+                <div class="component-placeholder">Input</div>
+                
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-sm text-muted-foreground"><span data-js-var="filteredImages.length"></span> صورة</span>
+                <div class="flex gap-1 bg-muted p-1 rounded-md">
+                  <div class="component button">
+                    <span class="icon-placeholder">LayoutGrid</span>
+                  </div>
+                  <div class="component button">
+                    <span class="icon-placeholder">Grid</span>
+                  </div>
+                </div>
+                <div class="component button">
+                  <span class="icon-placeholder">Filter</span> تصفية
+                </div>
+              </div>
+            </div>
+
+            <div class="component-placeholder" data-component="AnimatePresence">
+              {showFilters && (
+                <motion.div initial={} animate={} exit={} class="overflow-hidden">
+                  <div class="component-placeholder" data-component="ScrollArea">
+                    <div class="flex gap-2 pb-2 flex-wrap">
+                      <div class="dynamic-placeholder">قائمة ديناميكية من المصدر: <strong>activeCategories.map(...)</strong> — لم يتم تنفيذ JavaScript داخل التحويل الثابت.</div>
+                    </div>
+                  </div>
+                </motion.div>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Gallery -->
+      <section class="container mx-auto px-4 py-8">
+        >إعادة تعيين</div>
+          </div>
+        ) : (
+          <div>
+            <motion.div class="dynamic-class"
+              initial="hidden" animate="visible"
+              variants={{ hidden: , visible: { opacity: 1, transition:  } }}>
+              <div class="dynamic-placeholder">قائمة ديناميكية من المصدر: <strong>visibleImages.map(...)</strong> — لم يتم تنفيذ JavaScript داخل التحويل الثابت.</div>
+            </motion.div>
+
+            {visibleCount < filteredImages.length && (
+              <div class="text-center mt-10">
+                <div class="component button">
+                  تحميل المزيد ( متبقي)
+                </div>
+              </div>
+            )}
+          </div>
+        )}
+      </section>
+
+      <!-- Lightbox -->
+      <div class="component-placeholder" data-component="Dialog">
+        <div class="component-placeholder" data-component="DialogContent">
+          {selectedImage && (
+            <div class="relative w-full h-[90vh] flex items-center justify-center">
+              <img src= alt=""
+                class="max-w-full max-h-full object-contain" >
+              <button
+                class="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center text-white hover:bg-white/20 transition-colors">
+                <span class="icon-placeholder">ChevronRight</span>
+              </button>
+              <button
+                class="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center text-white hover:bg-white/20 transition-colors">
+                <span class="icon-placeholder">ChevronLeft</span>
+              </button>
+              <div class="absolute bottom-4 left-1/2 -translate-x-1/2 text-white text-center">
+                <p class="font-semibold"><span data-js-var="selectedImage.folderName"></span></p>
+                <p class="text-sm text-white/60"> / <span data-js-var="filteredImages.length"></span></p>
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+
+      <div class="component-placeholder">مكوّن مستورد: <strong>Footer</strong></div>
+    </div>
+      <div class="source-note">تم التحويل من الملف الأصلي: <code>FurnitureGallery.tsx</code>. هذه نسخة HTML ثابتة؛ الأجزاء المعتمدة على React/JavaScript أو مكوّنات خارج الحزمة ظهرت كعناصر Placeholder.</div>
+    </article>
+  </div>
+</body>
+</html>

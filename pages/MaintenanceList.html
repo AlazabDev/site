@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>قائمة طلبات الصيانة</title>
+  <link rel="stylesheet" href="assets/static-conversion.css">
+</head>
+<body>
+  <header class="azab-topbar">
+    <strong>قائمة طلبات الصيانة</strong> · <a href="index.html">فهرس الصفحات</a>
+  </header>
+  <div class="azab-shell">
+    <article class="azab-card converted-page">
+      <div class="bg-white min-h-screen">
+      <div class="component-placeholder">مكوّن مستورد: <strong>Header</strong></div>
+      <main class="pt-24">
+        <div class="container mx-auto px-4 py-8">
+          <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
+              <div>
+                <h1 class="text-3xl font-bold text-construction-primary">قائمة طلبات الصيانة</h1>
+                <p class="text-gray-600 mt-1">عرض وإدارة جميع طلبات الصيانة</p>
+              </div>
+              <a href="/maintenance-request">
+                <div class="component button">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ml-2">
+                    <path d="M12 5v14"></path>
+                    <path d="M5 12h14"></path>
+                  </svg>
+                  طلب صيانة جديد
+                </div>
+              </a>
+            </div>
+            
+            <div class="bg-white shadow-sm rounded-lg p-6 mb-8">
+              <h2 class="text-lg font-semibold mb-4">تصفية الطلبات</h2>
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div>
+                  <div class="component-placeholder">Input</div>
+                </div>
+                <div>
+                  <div class="component select"></span>
+                  >
+                    <div class="component selecttrigger">
+                      <div class="component-placeholder">SelectValue</div>
+                    </div>
+                    <div class="component selectcontent">
+                      <div class="component selectitem">جميع الحالات</div>
+                      <div class="component selectitem">قيد الانتظار</div>
+                      <div class="component selectitem">قيد التنفيذ</div>
+                      <div class="component selectitem">مكتمل</div>
+                      <div class="component selectitem">ملغي</div>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div class="component select"></span>
+                  >
+                    <div class="component selecttrigger">
+                      <div class="component-placeholder">SelectValue</div>
+                    </div>
+                    <div class="component selectcontent">
+                      <div class="component selectitem">جميع الأولويات</div>
+                      <div class="component selectitem"><span data-js-var="Priority.LOW"></span></div>
+                      <div class="component selectitem"><span data-js-var="Priority.MEDIUM"></span></div>
+                      <div class="component selectitem"><span data-js-var="Priority.HIGH"></span></div>
+                      <div class="component selectitem"><span data-js-var="Priority.URGENT"></span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-4">
+                <div class="component button">
+                  مسح الفلاتر
+                </div>
+              </div>
+            </div>
+            
+            <div class="bg-white shadow-sm rounded-lg p-6">
+              <div class="component-placeholder" data-component="MaintenanceRequestsList"></span> 
+                isLoading=<span data-js-var="isLoading"></span> 
+                onStatusChange=<span data-js-var="handleStatusChange"></span>
+                refreshRequests=<span data-js-var="fetchRequests"></span>
+              />
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="component-placeholder">مكوّن مستورد: <strong>Footer</strong></div>
+    </div>
+      <div class="source-note">تم التحويل من الملف الأصلي: <code>MaintenanceList.tsx</code>. هذه نسخة HTML ثابتة؛ الأجزاء المعتمدة على React/JavaScript أو مكوّنات خارج الحزمة ظهرت كعناصر Placeholder.</div>
+    </article>
+  </div>
+</body>
+</html>
